@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>06A56252-466F-4894-9901-12DB061C22F5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ButterToastCat</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BEFC1068-266B-4BA6-9C0A-49A4629A5A0A</key>
+		<string>https://github.com/henryfisherhardy/FlusteredPterodactyl.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Flustered Pterodactyl/games/game_flappy_crocodile/proj.ios/ButterToastCat.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BEFC1068-266B-4BA6-9C0A-49A4629A5A0A</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/henryfisherhardy/FlusteredPterodactyl.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BEFC1068-266B-4BA6-9C0A-49A4629A5A0A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BEFC1068-266B-4BA6-9C0A-49A4629A5A0A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FlusteredPterodactyl</string>
+		</dict>
+	</array>
+</dict>
+</plist>

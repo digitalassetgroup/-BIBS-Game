@@ -1,0 +1,30 @@
+\hypertarget{class_g_a_f_1_1_c_c_rect}{\section{G\-A\-F\-:\-:C\-C\-Rect Class Reference}
+\label{class_g_a_f_1_1_c_c_rect}\index{G\-A\-F\-::\-C\-C\-Rect@{G\-A\-F\-::\-C\-C\-Rect}}
+}
+
+
+{\ttfamily \#include $<$G\-A\-F\-Geometry.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_g_a_f_1_1_c_c_rect_ac98d154bec883ca32305aeedf240395d}{{\bfseries C\-C\-Rect} (float x, float y, float width, float height)}\label{class_g_a_f_1_1_c_c_rect_ac98d154bec883ca32305aeedf240395d}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_g_a_f_1_1_c_c_rect_ab4e03f6d8228bd9078c5c42670f7f020}{\hyperlink{class_g_a_f_1_1_c_c_point}{C\-C\-Point} {\bfseries origin}}\label{class_g_a_f_1_1_c_c_rect_ab4e03f6d8228bd9078c5c42670f7f020}
+
+\item 
+\hypertarget{class_g_a_f_1_1_c_c_rect_a6a766309814b1a2970f86ea3952a7587}{\hyperlink{class_g_a_f_1_1_c_c_size}{C\-C\-Size} {\bfseries size}}\label{class_g_a_f_1_1_c_c_rect_a6a766309814b1a2970f86ea3952a7587}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Internal class of G\-A\-F Marmalade Library. It is used for emulation of Cocos2dx A\-P\-I and envirmonment for the Library. The purpose of the class is to have A\-P\-I that match A\-P\-I of Cocos2dx object, but the class itself has minimal set of features. It does not depend on Cocos2dx. We use it to unify the code of G\-A\-F Libraries across the frameworks. All support classes are located in namespace G\-A\-F. In future G\-A\-F Marmalade can support new rendering backend (other than Cocos2dx), and the effort is made to minimize code differences between libraries. If you are going to use only Cocos2dx as rendering backend you do not have to use theese classes or even know about them. If you are planning to switch to new backend that G\-A\-F Marmalade will support you should not use any Cocos2dx class and instead use your own or classes from cocoagaf. If you need reference counting compatible with any of future releases you should use \hyperlink{class_g_a_f_1_1_c_c_object}{G\-A\-F\-::\-C\-C\-Object} as well. 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+cocoagaf/G\-A\-F\-Geometry.\-h\end{DoxyCompactItemize}
