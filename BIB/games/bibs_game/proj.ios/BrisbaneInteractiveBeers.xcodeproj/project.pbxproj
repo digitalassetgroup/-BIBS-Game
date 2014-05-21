@@ -3346,6 +3346,24 @@
 				3C6897DD18AEE8EE0014BD89 /* appicon-60@2x.png */,
 				3C6897DC18AEE8D30014BD89 /* appicon@2x.png */,
 				3C6897DB18AEE8C60014BD89 /* appicon.png */,
+				25ABE63B16F5F19F0054E612 /* ShareKit.xcodeproj */,
+				15A3D87E1682F7B3002FB0C5 /* cocos2dx.xcodeproj */,
+				15A3D8871682F7D5002FB0C5 /* Box2D */,
+				15A3D93A1682F7F9002FB0C5 /* chipmunk */,
+				15AA9C4015B7EC450033D6C2 /* Classes */,
+				15A3DA6B1682F8A6002FB0C5 /* CocosDenshion */,
+				15A3D9B31682F826002FB0C5 /* extensions */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				080E96DDFE201D6D7F000001 /* ios */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				78C7DDAA14EBA5050085D0C2 /* Resources */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
 				F8106FEB18A55C12000C3E4E /* RevMobAds.framework */,
 				F803150818A16320005755E9 /* AdColony.framework */,
 				F80314FC18A16307005755E9 /* Tapjoy.embeddedframework */,
@@ -3373,24 +3391,6 @@
 				25ABE6CA16F5F3850054E612 /* AdSupport.framework */,
 				25ABE6C816F5F37D0054E612 /* StoreKit.framework */,
 				25ABE6C616F5F36C0054E612 /* iAd.framework */,
-				25ABE63B16F5F19F0054E612 /* ShareKit.xcodeproj */,
-				15A3D87E1682F7B3002FB0C5 /* cocos2dx.xcodeproj */,
-				15A3D8871682F7D5002FB0C5 /* Box2D */,
-				15A3D93A1682F7F9002FB0C5 /* chipmunk */,
-				15AA9C4015B7EC450033D6C2 /* Classes */,
-				15A3DA6B1682F8A6002FB0C5 /* CocosDenshion */,
-				15A3D9B31682F826002FB0C5 /* extensions */,
-				29B97323FDCFA39411CA2CEA /* Frameworks */,
-				080E96DDFE201D6D7F000001 /* ios */,
-				19C28FACFE9D520D11CA2CBB /* Products */,
-				78C7DDAA14EBA5050085D0C2 /* Resources */,
-			);
-			name = CustomTemplate;
-			sourceTree = "<group>";
-		};
-		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
 				1ACB3243164770DE00914215 /* libcurl.a */,
 				BF170DB212928DE900B8313A /* libxml2.dylib */,
 				BF170DB412928DE900B8313A /* libz.dylib */,
