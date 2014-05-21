@@ -17,7 +17,7 @@
                BlueprintIdentifier = "25082B0716FA634400D7D2BA"
                BuildableName = "ButterToast.app"
                BlueprintName = "GamePaid"
-               ReferencedContainer = "container:ButterToastCat.xcodeproj">
+               ReferencedContainer = "container:BrisbaneInteractiveBeers.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
             BlueprintIdentifier = "25082B0716FA634400D7D2BA"
             BuildableName = "ButterToast.app"
             BlueprintName = "GamePaid"
-            ReferencedContainer = "container:ButterToastCat.xcodeproj">
+            ReferencedContainer = "container:BrisbaneInteractiveBeers.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -54,7 +54,7 @@
             BlueprintIdentifier = "25082B0716FA634400D7D2BA"
             BuildableName = "ButterToast.app"
             BlueprintName = "GamePaid"
-            ReferencedContainer = "container:ButterToastCat.xcodeproj">
+            ReferencedContainer = "container:BrisbaneInteractiveBeers.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -72,7 +72,7 @@
             BlueprintIdentifier = "25082B0716FA634400D7D2BA"
             BuildableName = "ButterToast.app"
             BlueprintName = "GamePaid"
-            ReferencedContainer = "container:ButterToastCat.xcodeproj">
+            ReferencedContainer = "container:BrisbaneInteractiveBeers.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
