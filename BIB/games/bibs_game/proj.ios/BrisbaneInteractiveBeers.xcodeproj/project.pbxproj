@@ -879,6 +879,7 @@
 		25F70B3F16F9E26E00CC3AE6 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F70B3A16F9E26E00CC3AE6 /* SBJsonParser.m */; };
 		25F70B4116F9E26E00CC3AE6 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F70B3C16F9E26E00CC3AE6 /* SBJsonWriter.m */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		3C712D71192DC2B200F77F08 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C712D70192DC2B200F77F08 /* Images.xcassets */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712461292920000B8313A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB212928DE900B8313A /* libxml2.dylib */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
@@ -1992,6 +1993,7 @@
 		25F70B3B16F9E26E00CC3AE6 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
 		25F70B3C16F9E26E00CC3AE6 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3C712D70192DC2B200F77F08 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = GameFree/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB212928DE900B8313A /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -3277,6 +3279,7 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				3C712D70192DC2B200F77F08 /* Images.xcassets */,
 				25322FBD16F61BA10046D233 /* splashes */,
 				25322FBA16F61B970046D233 /* assets */,
 			);
@@ -4076,6 +4079,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25ABE6C516F5F3440054E612 /* ShareKit.bundle in Resources */,
+				3C712D71192DC2B200F77F08 /* Images.xcassets in Resources */,
 				CEB91B2618A0CA5C00D6AC22 /* CommonClasses.vcxproj.user in Resources */,
 				15A3D9961682F7F9002FB0C5 /* CMakeLists.txt in Resources */,
 				CEB91B2218A0CA5C00D6AC22 /* CommonClasses.vcxproj.filters in Resources */,
@@ -5231,6 +5235,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Henry  Hardy (3T4H79H5BC)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Henry  Hardy (3T4H79H5BC)";
 				COPY_PHASE_STRIP = NO;
@@ -5294,6 +5300,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Henry  Hardy (3T4H79H5BC)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Henry  Hardy (3T4H79H5BC)";
 				COPY_PHASE_STRIP = YES;

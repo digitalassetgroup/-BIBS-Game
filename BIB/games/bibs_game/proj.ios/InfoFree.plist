@@ -10,13 +10,6 @@
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFile</key>
 	<string>Icon.png</string>
-	<key>CFBundleIconFiles</key>
-	<array>
-		<string>Icon.png</string>
-		<string>Icon@2x.png</string>
-		<string>Icon-72.png</string>
-		<string>Icon-72@2x.png</string>
-	</array>
 	<key>CFBundleIdentifier</key>
 	<string>E6GF86QS8Z.henryhardy.buttertoastcat.com</string>
 	<key>CFBundleInfoDictionaryVersion</key>
