@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A780DB75-B2CF-44A9-975E-F0D6701D59E9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BrisbaneInteractiveBeers</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B46529C0-F3BB-478A-8ACC-072A8F61D734</key>
+		<string>ssh://github.com/digitalassetgroup/-BIBS-Game.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BIB/games/bibs_game/proj.ios/BrisbaneInteractiveBeers.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B46529C0-F3BB-478A-8ACC-072A8F61D734</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/digitalassetgroup/-BIBS-Game.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B46529C0-F3BB-478A-8ACC-072A8F61D734</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B46529C0-F3BB-478A-8ACC-072A8F61D734</string>
+			<key>IDESourceControlWCCName</key>
+			<string>-BIBS-Game</string>
+		</dict>
+	</array>
+</dict>
+</plist>
