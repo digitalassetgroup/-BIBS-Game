@@ -5391,7 +5391,7 @@
 					"$(SRCROOT)/../Classes/CommonClasses",
 				);
 				INFOPLIST_FILE = InfoPaid.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(SRCROOT)/../../../cocos2dx/platform/third_party/ios/libraries",
 					"$(SRCROOT)",
@@ -5450,7 +5450,7 @@
 					"$(SRCROOT)/../Classes/CommonClasses",
 				);
 				INFOPLIST_FILE = InfoPaid.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(SRCROOT)/../../../cocos2dx/platform/third_party/ios/libraries",
 					"$(SRCROOT)",
