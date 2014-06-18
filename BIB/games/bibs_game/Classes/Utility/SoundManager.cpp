@@ -41,7 +41,7 @@ void SoundManager::PlaySound(const string& soundName)
 
 void SoundManager::PlayBgMusic()
 {
-	string musicPath = "sound/Candy Parade_131105_Loop" + GetMusicExtension();
+	string musicPath = "sound/gangsta" + GetMusicExtension();
 
 	SimpleAudioEngine::sharedEngine()->playBackgroundMusic(
 		CCFileUtils::sharedFileUtils()->fullPathForFilename(musicPath.c_str()).c_str(), true);

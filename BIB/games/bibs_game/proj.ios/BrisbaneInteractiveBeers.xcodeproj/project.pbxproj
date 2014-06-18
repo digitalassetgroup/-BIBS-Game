@@ -3755,7 +3755,7 @@
 				LastUpgradeCheck = 0500;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
-						DevelopmentTeam = E6GF86QS8Z;
+						DevelopmentTeam = Q26NF2UVQ8;
 					};
 					25082B0716FA634400D7D2BA = {
 						DevelopmentTeam = E6GF86QS8Z;
@@ -5237,8 +5237,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Henry  Hardy (3T4H79H5BC)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Henry  Hardy (3T4H79H5BC)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Henry Hardy (DBE2XVVKTZ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Henry Hardy (DBE2XVVKTZ)";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5287,8 +5287,8 @@
 					"-all_load",
 				);
 				PRODUCT_NAME = ButterToast;
-				PROVISIONING_PROFILE = "F775105A-683E-4AA8-B9D4-C87D91C7C2A8";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F775105A-683E-4AA8-B9D4-C87D91C7C2A8";
+				PROVISIONING_PROFILE = "00F6D151-1FE6-4C78-8083-292B65ECE811";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "00F6D151-1FE6-4C78-8083-292B65ECE811";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";
@@ -5302,8 +5302,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Henry  Hardy (3T4H79H5BC)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Henry  Hardy (3T4H79H5BC)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Henry Hardy (DBE2XVVKTZ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Henry Hardy (DBE2XVVKTZ)";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5349,8 +5349,8 @@
 					"-all_load",
 				);
 				PRODUCT_NAME = ButterToast;
-				PROVISIONING_PROFILE = "F775105A-683E-4AA8-B9D4-C87D91C7C2A8";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F775105A-683E-4AA8-B9D4-C87D91C7C2A8";
+				PROVISIONING_PROFILE = "00F6D151-1FE6-4C78-8083-292B65ECE811";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "00F6D151-1FE6-4C78-8083-292B65ECE811";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";
