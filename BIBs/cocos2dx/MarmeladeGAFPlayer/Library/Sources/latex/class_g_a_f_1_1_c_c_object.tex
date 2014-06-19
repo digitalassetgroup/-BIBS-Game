@@ -1,0 +1,45 @@
+\hypertarget{class_g_a_f_1_1_c_c_object}{\section{G\-A\-F\-:\-:C\-C\-Object Class Reference}
+\label{class_g_a_f_1_1_c_c_object}\index{G\-A\-F\-::\-C\-C\-Object@{G\-A\-F\-::\-C\-C\-Object}}
+}
+
+
+{\ttfamily \#include $<$G\-A\-F\-Geometry.\-h$>$}
+
+Inheritance diagram for G\-A\-F\-:\-:C\-C\-Object\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=12.000000cm]{class_g_a_f_1_1_c_c_object}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_g_a_f_1_1_c_c_object_a92d6be0cf04da2919e9039bef31f8584}{void {\bfseries retain} ()}\label{class_g_a_f_1_1_c_c_object_a92d6be0cf04da2919e9039bef31f8584}
+
+\item 
+\hypertarget{class_g_a_f_1_1_c_c_object_ab05fb1b3a8729e96ca23ddbe62c2d1c4}{void {\bfseries release} ()}\label{class_g_a_f_1_1_c_c_object_ab05fb1b3a8729e96ca23ddbe62c2d1c4}
+
+\item 
+\hypertarget{class_g_a_f_1_1_c_c_object_a4e3d530ba069913a6e5708ea3fbf2491}{\hyperlink{class_g_a_f_1_1_c_c_object}{C\-C\-Object} $\ast$ {\bfseries autorelease} ()}\label{class_g_a_f_1_1_c_c_object_a4e3d530ba069913a6e5708ea3fbf2491}
+
+\item 
+\hypertarget{class_g_a_f_1_1_c_c_object_ad2498666cde8606d0b113fca7a0ebf41}{void {\bfseries set\-User\-Data} (void $\ast$user\-Data)}\label{class_g_a_f_1_1_c_c_object_ad2498666cde8606d0b113fca7a0ebf41}
+
+\item 
+\hypertarget{class_g_a_f_1_1_c_c_object_adae0a97b469059ea1766bdc6eaf65c02}{void $\ast$ {\bfseries user\-Data} ()}\label{class_g_a_f_1_1_c_c_object_adae0a97b469059ea1766bdc6eaf65c02}
+
+\item 
+\hypertarget{class_g_a_f_1_1_c_c_object_a1bc5736a053deff185e344503a582ef8}{void {\bfseries set\-Tag} (int tag)}\label{class_g_a_f_1_1_c_c_object_a1bc5736a053deff185e344503a582ef8}
+
+\item 
+\hypertarget{class_g_a_f_1_1_c_c_object_ab5a4e313567c5c1e2791570385ba6873}{int {\bfseries get\-Tag} () const }\label{class_g_a_f_1_1_c_c_object_ab5a4e313567c5c1e2791570385ba6873}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Internal class of G\-A\-F Marmalade Library. It is used for emulation of Cocos2dx A\-P\-I and envirmonment for the Library. The purpose of the class is to have A\-P\-I that match A\-P\-I of Cocos2dx object, but the class itself has minimal set of features. It does not depend on Cocos2dx. We use it to unify the code of G\-A\-F Libraries across the frameworks. All support classes are located in namespace G\-A\-F. In future G\-A\-F Marmalade can support new rendering backend (other than Cocos2dx), and the effort is made to minimize code differences between libraries. If you are going to use only Cocos2dx as rendering backend you do not have to use theese classes or even know about them. If you are planning to switch to new backend that G\-A\-F Marmalade will support you should not use any Cocos2dx class and instead use your own or classes from cocoagaf. If you need reference counting compatible with any of future releases you should use \hyperlink{class_g_a_f_1_1_c_c_object}{G\-A\-F\-::\-C\-C\-Object} as well. 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+cocoagaf/G\-A\-F\-Object.\-h\end{DoxyCompactItemize}

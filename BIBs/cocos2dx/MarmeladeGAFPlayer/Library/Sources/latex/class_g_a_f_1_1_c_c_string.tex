@@ -1,0 +1,42 @@
+\hypertarget{class_g_a_f_1_1_c_c_string}{\section{G\-A\-F\-:\-:C\-C\-String Class Reference}
+\label{class_g_a_f_1_1_c_c_string}\index{G\-A\-F\-::\-C\-C\-String@{G\-A\-F\-::\-C\-C\-String}}
+}
+
+
+{\ttfamily \#include $<$G\-A\-F\-String.\-h$>$}
+
+Inheritance diagram for G\-A\-F\-:\-:C\-C\-String\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_g_a_f_1_1_c_c_string}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_g_a_f_1_1_c_c_string_acb10c8d19397ba78338e04c86928af74}{const char $\ast$ {\bfseries get\-C\-String} () const }\label{class_g_a_f_1_1_c_c_string_acb10c8d19397ba78338e04c86928af74}
+
+\item 
+\hypertarget{class_g_a_f_1_1_c_c_string_a3a69d5ee2fdd5230bf80cd52269c49ea}{{\bfseries C\-C\-String} (const char $\ast$str)}\label{class_g_a_f_1_1_c_c_string_a3a69d5ee2fdd5230bf80cd52269c49ea}
+
+\item 
+\hypertarget{class_g_a_f_1_1_c_c_string_a77a770c1de66847d3706433a5a331ea6}{{\bfseries C\-C\-String} (const std\-::string \&str)}\label{class_g_a_f_1_1_c_c_string_a77a770c1de66847d3706433a5a331ea6}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_g_a_f_1_1_c_c_string_a7bdc8ceafa9da8f5f5f11c57c582ddbb}{static \hyperlink{class_g_a_f_1_1_c_c_string}{C\-C\-String} $\ast$ {\bfseries create} (const char $\ast$str)}\label{class_g_a_f_1_1_c_c_string_a7bdc8ceafa9da8f5f5f11c57c582ddbb}
+
+\item 
+\hypertarget{class_g_a_f_1_1_c_c_string_a36edb4b0a30039f240f7057ff8d1448a}{static \hyperlink{class_g_a_f_1_1_c_c_string}{C\-C\-String} $\ast$ {\bfseries create} (const std\-::string \&str)}\label{class_g_a_f_1_1_c_c_string_a36edb4b0a30039f240f7057ff8d1448a}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Internal class of G\-A\-F Marmalade Library. It is used for emulation of Cocos2dx A\-P\-I and envirmonment for the Library. The purpose of the class is to have A\-P\-I that match A\-P\-I of Cocos2dx object, but the class itself has minimal set of features. It does not depend on Cocos2dx. We use it to unify the code of G\-A\-F Libraries across the frameworks. All support classes are located in namespace G\-A\-F. In future G\-A\-F Marmalade can support new rendering backend (other than Cocos2dx), and the effort is made to minimize code differences between libraries. If you are going to use only Cocos2dx as rendering backend you do not have to use theese classes or even know about them. If you are planning to switch to new backend that G\-A\-F Marmalade will support you should not use any Cocos2dx class and instead use your own or classes from cocoagaf. If you need reference counting compatible with any of future releases you should use \hyperlink{class_g_a_f_1_1_c_c_object}{G\-A\-F\-::\-C\-C\-Object} as well. 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+cocoagaf/G\-A\-F\-String.\-h\end{DoxyCompactItemize}

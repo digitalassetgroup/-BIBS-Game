@@ -1,0 +1,56 @@
+\hypertarget{class_g_a_f_1_1_g_a_f_data}{\section{G\-A\-F\-:\-:G\-A\-F\-Data Class Reference}
+\label{class_g_a_f_1_1_g_a_f_data}\index{G\-A\-F\-::\-G\-A\-F\-Data@{G\-A\-F\-::\-G\-A\-F\-Data}}
+}
+
+
+{\ttfamily \#include $<$G\-A\-F\-Data.\-h$>$}
+
+Inheritance diagram for G\-A\-F\-:\-:G\-A\-F\-Data\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_g_a_f_1_1_g_a_f_data}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_g_a_f_1_1_g_a_f_data_aef1f44d75c6f72f2d28e24c7a3fd1a1f}{{\bfseries G\-A\-F\-Data} (unsigned char $\ast$\-\_\-ptr, int size, bool delete\-\_\-data=false)}\label{class_g_a_f_1_1_g_a_f_data_aef1f44d75c6f72f2d28e24c7a3fd1a1f}
+
+\item 
+\hypertarget{class_g_a_f_1_1_g_a_f_data_a20ce92e7efd7fb55b57e373b747515d1}{unsigned char $\ast$ {\bfseries bytes} () const }\label{class_g_a_f_1_1_g_a_f_data_a20ce92e7efd7fb55b57e373b747515d1}
+
+\item 
+\hypertarget{class_g_a_f_1_1_g_a_f_data_a9ddeff084b3c488fadec36afeaf24354}{void {\bfseries set\-Bytes} (unsigned char $\ast$bytes)}\label{class_g_a_f_1_1_g_a_f_data_a9ddeff084b3c488fadec36afeaf24354}
+
+\item 
+\hypertarget{class_g_a_f_1_1_g_a_f_data_aaabf7529ff1314ed6bbe0381c3dd2d9f}{unsigned long {\bfseries size} () const }\label{class_g_a_f_1_1_g_a_f_data_aaabf7529ff1314ed6bbe0381c3dd2d9f}
+
+\item 
+\hypertarget{class_g_a_f_1_1_g_a_f_data_a32f7e574f4f2afbb76dd0f07594e64e9}{void {\bfseries set\-Size} (unsigned long size)}\label{class_g_a_f_1_1_g_a_f_data_a32f7e574f4f2afbb76dd0f07594e64e9}
+
+\item 
+void \hyperlink{class_g_a_f_1_1_g_a_f_data_a562c8e9f3b3ba2713c16286a4e6bcf41}{set\-Delete\-Data} (bool delete\-Data)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Simple N\-S\-Data-\/like class for internal usage. Made public since it can be useful for G\-A\-F Marmalade users. It does N\-O\-T release memory by default -\/ be careful. 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_g_a_f_1_1_g_a_f_data_a562c8e9f3b3ba2713c16286a4e6bcf41}{\index{G\-A\-F\-::\-G\-A\-F\-Data@{G\-A\-F\-::\-G\-A\-F\-Data}!set\-Delete\-Data@{set\-Delete\-Data}}
+\index{set\-Delete\-Data@{set\-Delete\-Data}!GAF::GAFData@{G\-A\-F\-::\-G\-A\-F\-Data}}
+\subsubsection[{set\-Delete\-Data}]{\setlength{\rightskip}{0pt plus 5cm}void G\-A\-F\-::\-G\-A\-F\-Data\-::set\-Delete\-Data (
+\begin{DoxyParamCaption}
+\item[{bool}]{delete\-Data}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_g_a_f_1_1_g_a_f_data_a562c8e9f3b3ba2713c16286a4e6bcf41}
+By default \hyperlink{class_g_a_f_1_1_g_a_f_data}{G\-A\-F\-Data} does N\-O\-T release memory. However, it is possible to delete internal array in destructor. 
+\begin{DoxyParams}{Parameters}
+{\em delete\-Data} & -\/ delete internal array in desctructor or not \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+G\-A\-F\-Data.\-h\end{DoxyCompactItemize}

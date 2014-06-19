@@ -1,0 +1,831 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{c553544f-4c89-11e3-b512-dd93b00b0037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreDragon">
+      <UniqueIdentifier>{c5537b5e-4c89-11e3-9a6b-dd93b00b0037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CorePlatform">
+      <UniqueIdentifier>{c553a270-4c89-11e3-af7c-dd93b00b0037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dragon">
+      <UniqueIdentifier>{c553a271-4c89-11e3-a76a-dd93b00b0037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{c553a272-4c89-11e3-8224-dd93b00b0037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\closure">
+      <UniqueIdentifier>{c553c981-4c89-11e3-ba45-dd93b00b0037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreDragon\NodeEffects">
+      <UniqueIdentifier>{c553f08f-4c89-11e3-90fd-dd93b00b0037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreDragon\UI">
+      <UniqueIdentifier>{c553f090-4c89-11e3-a0de-dd93b00b0037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CorePlatform\android">
+      <UniqueIdentifier>{c554179e-4c89-11e3-b667-dd93b00b0037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CorePlatform\mac">
+      <UniqueIdentifier>{c554179f-4c89-11e3-8852-dd93b00b0037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CorePlatform\windows">
+      <UniqueIdentifier>{c55417a0-4c89-11e3-8454-dd93b00b0037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dragon\effects">
+      <UniqueIdentifier>{c5543eb0-4c89-11e3-bda6-dd93b00b0037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dragon\helper_objects">
+      <UniqueIdentifier>{c5543eb1-4c89-11e3-a5d5-dd93b00b0037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dragon\scenes">
+      <UniqueIdentifier>{c55465c0-4c89-11e3-9068-dd93b00b0037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dragon\ui">
+      <UniqueIdentifier>{c55465c1-4c89-11e3-896f-dd93b00b0037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dragon\utilities">
+      <UniqueIdentifier>{c5548ccf-4c89-11e3-acea-dd93b00b0037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\Boolinq">
+      <UniqueIdentifier>{c5548cd0-4c89-11e3-b355-dd93b00b0037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\LuaPlus">
+      <UniqueIdentifier>{c5548cd1-4c89-11e3-ae43-dd93b00b0037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\LuaPlus\src">
+      <UniqueIdentifier>{c554b3e1-4c89-11e3-865d-dd93b00b0037}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Core\CCScopedObject.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Core\CollectionHelper.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Core\CommonMacros.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Core\CoreAll.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Core\CoroutineGenerator.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Core\EncodingHelper.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Core\ForEachEnumGenerator.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Core\IdentityObject.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Core\IntPoint.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Core\MathHelper.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Core\MemoryManagement.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Core\NonCopyable.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Core\Nullable.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Core\ObjectPool.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Core\ObserverEvent.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Core\PropertyDefiner.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Core\QArray.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Core\QFunction.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Core\QPointer.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Core\QScopedPointer.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Core\QTypeTraits.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Core\RandomHelper.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Core\RemoteFunctionCaller.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Core\shared_ptr.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Core\StringHelper.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Core\closure\closure.h">
+      <Filter>Core\closure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Core\closure\closure_impl.h">
+      <Filter>Core\closure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreDragon\GlobalUpdater.h">
+      <Filter>CoreDragon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreDragon\LuaPlusHelper.h">
+      <Filter>CoreDragon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreDragon\LuaStateContext.h">
+      <Filter>CoreDragon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreDragon\TouchableLayerBase.h">
+      <Filter>CoreDragon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreDragon\NodeEffects\CCAnimateWithCallback.h">
+      <Filter>CoreDragon\NodeEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreDragon\NodeEffects\CCCallLambda.h">
+      <Filter>CoreDragon\NodeEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreDragon\NodeEffects\CCOpacityTo.h">
+      <Filter>CoreDragon\NodeEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreDragon\NodeEffects\MoveToWithEasing.h">
+      <Filter>CoreDragon\NodeEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreDragon\NodeEffects\NodeEffectButtonScaleQuarter.h">
+      <Filter>CoreDragon\NodeEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreDragon\NodeEffects\NodeEffectCirclePosition.h">
+      <Filter>CoreDragon\NodeEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreDragon\NodeEffects\NodeEffectCustomValue.h">
+      <Filter>CoreDragon\NodeEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreDragon\NodeEffects\NodeEffectGrouping.h">
+      <Filter>CoreDragon\NodeEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreDragon\NodeEffects\NodeEffectQuarterRotating.h">
+      <Filter>CoreDragon\NodeEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreDragon\NodeEffects\NodeEffectRotatingWithAngles.h">
+      <Filter>CoreDragon\NodeEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreDragon\NodeEffects\NodeEffectWithEasingBase.h">
+      <Filter>CoreDragon\NodeEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreDragon\UI\CCLabelHelper.h">
+      <Filter>CoreDragon\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreDragon\UI\SaveLoadLevelUI.h">
+      <Filter>CoreDragon\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreDragon\UI\UIDebugAlert.h">
+      <Filter>CoreDragon\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CorePlatform\CCAdvancedSprite.h">
+      <Filter>CorePlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CorePlatform\CCPointMath.h">
+      <Filter>CorePlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CorePlatform\CommonProperties.h">
+      <Filter>CorePlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CorePlatform\CorePlatformAll.h">
+      <Filter>CorePlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CorePlatform\CoroutineSecondsGenerator.h">
+      <Filter>CorePlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CorePlatform\DesktopScreenLister.h">
+      <Filter>CorePlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CorePlatform\DigitDrawer.h">
+      <Filter>CorePlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CorePlatform\FileHelper.h">
+      <Filter>CorePlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CorePlatform\FixedUpdater.h">
+      <Filter>CorePlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CorePlatform\GeometryHelper.h">
+      <Filter>CorePlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CorePlatform\InputHelper.h">
+      <Filter>CorePlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CorePlatform\IScenesHideOutShowIn.h">
+      <Filter>CorePlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CorePlatform\LogHelper.h">
+      <Filter>CorePlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CorePlatform\LogObserver.h">
+      <Filter>CorePlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CorePlatform\MemoryUsageHelper.h">
+      <Filter>CorePlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CorePlatform\NodeHelper.h">
+      <Filter>CorePlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CorePlatform\NodeScheduleLambda.h">
+      <Filter>CorePlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CorePlatform\SceneBase.h">
+      <Filter>CorePlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CorePlatform\SceneManagerBase.h">
+      <Filter>CorePlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CorePlatform\ScreenBlurrer.h">
+      <Filter>CorePlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CorePlatform\ScreenLogLayer.h">
+      <Filter>CorePlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CorePlatform\ScreenLogListener.h">
+      <Filter>CorePlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CorePlatform\ScreenViewHelper.h">
+      <Filter>CorePlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CorePlatform\SecurityHelper.h">
+      <Filter>CorePlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CorePlatform\SpriteHelper.h">
+      <Filter>CorePlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CorePlatform\StackWalker.h">
+      <Filter>CorePlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CorePlatform\StringDrawer.h">
+      <Filter>CorePlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CorePlatform\TextureManagerBase.h">
+      <Filter>CorePlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CorePlatform\TotalTimeCounter.h">
+      <Filter>CorePlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CorePlatform\mac\DDHotKeyCenter.h">
+      <Filter>CorePlatform\mac</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CorePlatform\mac\MacScreenViewHelper.h">
+      <Filter>CorePlatform\mac</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CorePlatform\windows\dirent.h">
+      <Filter>CorePlatform\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dragon\effects\effect_manager.h">
+      <Filter>Dragon\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dragon\effects\node_effect_button_scale.h">
+      <Filter>Dragon\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dragon\effects\node_effect_button_slide_in.h">
+      <Filter>Dragon\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dragon\effects\node_effect_move_to.h">
+      <Filter>Dragon\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dragon\effects\node_effect_sine_wave_motion.h">
+      <Filter>Dragon\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dragon\helper_objects\cannon_arc_helper_node.h">
+      <Filter>Dragon\helper_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dragon\scenes\scene_assert.h">
+      <Filter>Dragon\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dragon\scenes\scene_base.h">
+      <Filter>Dragon\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dragon\scenes\scene_manager.h">
+      <Filter>Dragon\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dragon\ui\ig_interface.h">
+      <Filter>Dragon\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dragon\ui\i_btn_delegate.h">
+      <Filter>Dragon\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dragon\ui\ui_button.h">
+      <Filter>Dragon\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dragon\ui\ui_counting_label.h">
+      <Filter>Dragon\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dragon\ui\ui_fullscreen_quad.h">
+      <Filter>Dragon\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dragon\ui\ui_label.h">
+      <Filter>Dragon\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dragon\ui\ui_popup_box.h">
+      <Filter>Dragon\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dragon\ui\ui_scrolling_backdrop.h">
+      <Filter>Dragon\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dragon\ui\ui_scrolling_list.h">
+      <Filter>Dragon\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dragon\ui\ui_scrolling_sprite_field.h">
+      <Filter>Dragon\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dragon\ui\ui_toggle_button.h">
+      <Filter>Dragon\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dragon\utilities\DragonVec2.h">
+      <Filter>Dragon\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dragon\utilities\ig_assert.h">
+      <Filter>Dragon\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dragon\utilities\ig_constants.h">
+      <Filter>Dragon\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dragon\utilities\ig_defines.h">
+      <Filter>Dragon\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dragon\utilities\ig_easing_curves.h">
+      <Filter>Dragon\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dragon\utilities\ig_one_time_const.h">
+      <Filter>Dragon\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dragon\utilities\ig_touchEvent.h">
+      <Filter>Dragon\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dragon\utilities\ig_utilities.h">
+      <Filter>Dragon\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dragon\utilities\sharing_service.h">
+      <Filter>Dragon\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\Boolinq\boolinq-all.h">
+      <Filter>lib\Boolinq</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\LuaPlus\LuaAutoBlock.h">
+      <Filter>lib\LuaPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\LuaPlus\LuaCall.h">
+      <Filter>lib\LuaPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\LuaPlus\LuaFunction.h">
+      <Filter>lib\LuaPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\LuaPlus\LuaHelper.h">
+      <Filter>lib\LuaPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\LuaPlus\LuaHelper_Object.h">
+      <Filter>lib\LuaPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\LuaPlus\LuaHelper_StackObject.h">
+      <Filter>lib\LuaPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\LuaPlus\LuaLink.h">
+      <Filter>lib\LuaPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\LuaPlus\LuaObject.h">
+      <Filter>lib\LuaPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\LuaPlus\LuaPlus.h">
+      <Filter>lib\LuaPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\LuaPlus\LuaPlusCD.h">
+      <Filter>lib\LuaPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\LuaPlus\LuaPlusInternal.h">
+      <Filter>lib\LuaPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\LuaPlus\LuaStackObject.h">
+      <Filter>lib\LuaPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\LuaPlus\LuaStackTableIterator.h">
+      <Filter>lib\LuaPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\LuaPlus\LuaState.h">
+      <Filter>lib\LuaPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\LuaPlus\LuaStateCD.h">
+      <Filter>lib\LuaPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\LuaPlus\LuaStateOutFile.h">
+      <Filter>lib\LuaPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\LuaPlus\LuaTableIterator.h">
+      <Filter>lib\LuaPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\LuaPlus\src\lapi.h">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\LuaPlus\src\lauxlib.h">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\LuaPlus\src\lcode.h">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\LuaPlus\src\ldebug.h">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\LuaPlus\src\ldo.h">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\LuaPlus\src\lfunc.h">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\LuaPlus\src\lgc.h">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\LuaPlus\src\llex.h">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\LuaPlus\src\llimits.h">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\LuaPlus\src\lmem.h">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\LuaPlus\src\lobject.h">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\LuaPlus\src\lopcodes.h">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\LuaPlus\src\lparser.h">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\LuaPlus\src\lstate.h">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\LuaPlus\src\lstring.h">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\LuaPlus\src\ltable.h">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\LuaPlus\src\ltm.h">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\LuaPlus\src\lua.h">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\LuaPlus\src\luaconf.h">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\LuaPlus\src\lualib.h">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\LuaPlus\src\lundump.h">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\LuaPlus\src\lvm.h">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\LuaPlus\src\lzio.h">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreDragon\UI\CCInAppPurchase.h">
+      <Filter>CoreDragon\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreDragon\UI\CCMessageBoxYesNo.h">
+      <Filter>CoreDragon\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Core\EncodingHelper.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Core\IdentityObject.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Core\MathHelper.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Core\ObserverEvent.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Core\StringHelper.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreDragon\GlobalUpdater.cpp">
+      <Filter>CoreDragon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreDragon\LuaPlusHelper.cpp">
+      <Filter>CoreDragon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreDragon\LuaStateContext.cpp">
+      <Filter>CoreDragon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreDragon\TouchableLayerBase.cpp">
+      <Filter>CoreDragon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreDragon\NodeEffects\CCAnimateWithCallback.cpp">
+      <Filter>CoreDragon\NodeEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreDragon\NodeEffects\CCCallLambda.cpp">
+      <Filter>CoreDragon\NodeEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreDragon\NodeEffects\CCOpacityTo.cpp">
+      <Filter>CoreDragon\NodeEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreDragon\NodeEffects\MoveToWithEasing.cpp">
+      <Filter>CoreDragon\NodeEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreDragon\NodeEffects\NodeEffectButtonScaleQuarter.cpp">
+      <Filter>CoreDragon\NodeEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreDragon\NodeEffects\NodeEffectCirclePosition.cpp">
+      <Filter>CoreDragon\NodeEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreDragon\NodeEffects\NodeEffectGrouping.cpp">
+      <Filter>CoreDragon\NodeEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreDragon\NodeEffects\NodeEffectQuarterRotating.cpp">
+      <Filter>CoreDragon\NodeEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreDragon\NodeEffects\NodeEffectRotatingWithAngles.cpp">
+      <Filter>CoreDragon\NodeEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreDragon\NodeEffects\NodeEffectWithEasingBase.cpp">
+      <Filter>CoreDragon\NodeEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreDragon\UI\CCLabelHelper.cpp">
+      <Filter>CoreDragon\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreDragon\UI\SaveLoadLevelUI.cpp">
+      <Filter>CoreDragon\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreDragon\UI\UIDebugAlert.cpp">
+      <Filter>CoreDragon\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CorePlatform\CCAdvancedSprite.cpp">
+      <Filter>CorePlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CorePlatform\CommonProperties.cpp">
+      <Filter>CorePlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CorePlatform\CorePlatformAll.cpp">
+      <Filter>CorePlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CorePlatform\FileHelper.cpp">
+      <Filter>CorePlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CorePlatform\FixedUpdater.cpp">
+      <Filter>CorePlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CorePlatform\GeometryHelper.cpp">
+      <Filter>CorePlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CorePlatform\InputHelper.cpp">
+      <Filter>CorePlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CorePlatform\LogHelper.cpp">
+      <Filter>CorePlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CorePlatform\MemoryUsageHelper.cpp">
+      <Filter>CorePlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CorePlatform\NodeHelper.cpp">
+      <Filter>CorePlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CorePlatform\SceneBase.cpp">
+      <Filter>CorePlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CorePlatform\SceneManagerBase.cpp">
+      <Filter>CorePlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CorePlatform\ScreenBlurrer.cpp">
+      <Filter>CorePlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CorePlatform\ScreenLogLayer.cpp">
+      <Filter>CorePlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CorePlatform\ScreenLogListener.cpp">
+      <Filter>CorePlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CorePlatform\ScreenViewHelper.cpp">
+      <Filter>CorePlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CorePlatform\SecurityHelper.cpp">
+      <Filter>CorePlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CorePlatform\SpriteHelper.cpp">
+      <Filter>CorePlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CorePlatform\TextureManagerBase.cpp">
+      <Filter>CorePlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CorePlatform\TotalTimeCounter.cpp">
+      <Filter>CorePlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dragon\effects\effect_manager.cpp">
+      <Filter>Dragon\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dragon\effects\node_effect_button_scale.cpp">
+      <Filter>Dragon\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dragon\effects\node_effect_button_slide_in.cpp">
+      <Filter>Dragon\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dragon\effects\node_effect_move_to.cpp">
+      <Filter>Dragon\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dragon\effects\node_effect_sine_wave_motion.cpp">
+      <Filter>Dragon\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dragon\helper_objects\cannon_arc_helper_node.cpp">
+      <Filter>Dragon\helper_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dragon\scenes\scene_assert.cpp">
+      <Filter>Dragon\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dragon\scenes\scene_base.cpp">
+      <Filter>Dragon\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dragon\scenes\scene_manager.cpp">
+      <Filter>Dragon\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dragon\ui\ig_interface.cpp">
+      <Filter>Dragon\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dragon\ui\ui_button.cpp">
+      <Filter>Dragon\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dragon\ui\ui_counting_label.cpp">
+      <Filter>Dragon\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dragon\ui\ui_fullscreen_quad.cpp">
+      <Filter>Dragon\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dragon\ui\ui_label.cpp">
+      <Filter>Dragon\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dragon\ui\ui_popup_box.cpp">
+      <Filter>Dragon\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dragon\ui\ui_scrolling_backdrop.cpp">
+      <Filter>Dragon\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dragon\ui\ui_scrolling_list.cpp">
+      <Filter>Dragon\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dragon\ui\ui_scrolling_sprite_field.cpp">
+      <Filter>Dragon\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dragon\ui\ui_toggle_button.cpp">
+      <Filter>Dragon\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dragon\utilities\ig_easing_curves.cpp">
+      <Filter>Dragon\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dragon\utilities\ig_utilities.cpp">
+      <Filter>Dragon\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dragon\utilities\sharing_service.cpp">
+      <Filter>Dragon\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\LuaObject.cpp">
+      <Filter>lib\LuaPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\LuaPlus.cpp">
+      <Filter>lib\LuaPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\LuaPlus_Libs.cpp">
+      <Filter>lib\LuaPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\LuaState.cpp">
+      <Filter>lib\LuaPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\LuaStateOutFile.cpp">
+      <Filter>lib\LuaPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\LuaState_DumpObject.cpp">
+      <Filter>lib\LuaPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\LuaTableIterator.cpp">
+      <Filter>lib\LuaPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\LuaPlusAddons.c">
+      <Filter>lib\LuaPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\lwstrlib.c">
+      <Filter>lib\LuaPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\popen.c">
+      <Filter>lib\LuaPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\lapi.c">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\lauxlib.c">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\lbaselib.c">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\lcode.c">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\ldblib.c">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\ldebug.c">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\ldo.c">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\ldump.c">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\lfunc.c">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\lgc.c">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\linit.c">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\liolib.c">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\llex.c">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\lmathlib.c">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\lmem.c">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\loadlib.c">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\lobject.c">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\lopcodes.c">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\loslib.c">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\lparser.c">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\lstate.c">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\lstring.c">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\lstrlib.c">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\ltable.c">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\ltablib.c">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\ltm.c">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\lundump.c">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\lvm.c">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\lzio.c">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\print.c">
+      <Filter>lib\LuaPlus\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreDragon\UI\CCInAppPurchase.cpp">
+      <Filter>CoreDragon\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreDragon\UI\CCMessageBoxYesNo.cpp">
+      <Filter>CoreDragon\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

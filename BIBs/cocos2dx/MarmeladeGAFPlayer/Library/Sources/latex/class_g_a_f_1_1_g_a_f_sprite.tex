@@ -1,0 +1,74 @@
+\hypertarget{class_g_a_f_1_1_g_a_f_sprite}{\section{G\-A\-F\-:\-:G\-A\-F\-Sprite Class Reference}
+\label{class_g_a_f_1_1_g_a_f_sprite}\index{G\-A\-F\-::\-G\-A\-F\-Sprite@{G\-A\-F\-::\-G\-A\-F\-Sprite}}
+}
+
+
+{\ttfamily \#include $<$G\-A\-F\-Sprite.\-h$>$}
+
+Inheritance diagram for G\-A\-F\-:\-:G\-A\-F\-Sprite\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_g_a_f_1_1_g_a_f_sprite}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_g_a_f_1_1_g_a_f_sprite_a62060dc407edd4be0b4c8d6d2b543f51}{void {\bfseries set\-Externa\-Transform} (const \hyperlink{class_g_a_f_1_1_c_c_affine_transform}{C\-C\-Affine\-Transform} \&transform)}\label{class_g_a_f_1_1_g_a_f_sprite_a62060dc407edd4be0b4c8d6d2b543f51}
+
+\item 
+\hypertarget{class_g_a_f_1_1_g_a_f_sprite_a0964b5cbabb853fba085e618de5baa6a}{bool {\bfseries init\-With\-Texture} (void $\ast$p\-Texture, const \hyperlink{class_g_a_f_1_1_c_c_rect}{C\-C\-Rect} \&rect, bool rotated)}\label{class_g_a_f_1_1_g_a_f_sprite_a0964b5cbabb853fba085e618de5baa6a}
+
+\item 
+void $\ast$ \hyperlink{class_g_a_f_1_1_g_a_f_sprite_a06cbb88c161385cf028fef400d320f0d}{get\-External\-Pointer} ()
+\item 
+void \hyperlink{class_g_a_f_1_1_g_a_f_sprite_a7ef1c87d7a159fa3c29fb17c7c481cd0}{set\-External\-Pointer} (void $\ast$pointer)
+\item 
+\hypertarget{class_g_a_f_1_1_g_a_f_sprite_a337ff41163681341626078f0b20d5eb2}{void \hyperlink{class_g_a_f_1_1_g_a_f_sprite_a337ff41163681341626078f0b20d5eb2}{set\-Visible} (bool visible)}\label{class_g_a_f_1_1_g_a_f_sprite_a337ff41163681341626078f0b20d5eb2}
+
+\begin{DoxyCompactList}\small\item\em set visibilty of the sprite \end{DoxyCompactList}\item 
+\hypertarget{class_g_a_f_1_1_g_a_f_sprite_a7d10ff68ee86a4d7efa2a117bde8386c}{virtual void {\bfseries init\-External} ()}\label{class_g_a_f_1_1_g_a_f_sprite_a7d10ff68ee86a4d7efa2a117bde8386c}
+
+\item 
+\hypertarget{class_g_a_f_1_1_g_a_f_sprite_a5acd185b3e1e531b1d43b58253852c50}{void {\bfseries get\-Parameter} (int parameter, void $\ast$result)}\label{class_g_a_f_1_1_g_a_f_sprite_a5acd185b3e1e531b1d43b58253852c50}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_g_a_f_1_1_g_a_f_sprite_a3bdfe86142a3ebc48942f1736ced9b21}{std\-::string \hyperlink{class_g_a_f_1_1_g_a_f_sprite_a3bdfe86142a3ebc48942f1736ced9b21}{object\-Id}}\label{class_g_a_f_1_1_g_a_f_sprite_a3bdfe86142a3ebc48942f1736ced9b21}
+
+\begin{DoxyCompactList}\small\item\em object identifier found in J\-S\-O\-N \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This is utility class used by G\-A\-F playback. It does not perform rendering or use Open\-G\-L. Instead, it references backend object via \hyperlink{class_g_a_f_1_1_g_a_f_sprite_a06cbb88c161385cf028fef400d320f0d}{G\-A\-F\-Sprite\-::get\-External\-Pointer}. 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_g_a_f_1_1_g_a_f_sprite_a06cbb88c161385cf028fef400d320f0d}{\index{G\-A\-F\-::\-G\-A\-F\-Sprite@{G\-A\-F\-::\-G\-A\-F\-Sprite}!get\-External\-Pointer@{get\-External\-Pointer}}
+\index{get\-External\-Pointer@{get\-External\-Pointer}!GAF::GAFSprite@{G\-A\-F\-::\-G\-A\-F\-Sprite}}
+\subsubsection[{get\-External\-Pointer}]{\setlength{\rightskip}{0pt plus 5cm}void$\ast$ G\-A\-F\-::\-G\-A\-F\-Sprite\-::get\-External\-Pointer (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_g_a_f_1_1_g_a_f_sprite_a06cbb88c161385cf028fef400d320f0d}
+\begin{DoxyReturn}{Returns}
+external pointer to G\-A\-F rendering backend object 
+\end{DoxyReturn}
+\hypertarget{class_g_a_f_1_1_g_a_f_sprite_a7ef1c87d7a159fa3c29fb17c7c481cd0}{\index{G\-A\-F\-::\-G\-A\-F\-Sprite@{G\-A\-F\-::\-G\-A\-F\-Sprite}!set\-External\-Pointer@{set\-External\-Pointer}}
+\index{set\-External\-Pointer@{set\-External\-Pointer}!GAF::GAFSprite@{G\-A\-F\-::\-G\-A\-F\-Sprite}}
+\subsubsection[{set\-External\-Pointer}]{\setlength{\rightskip}{0pt plus 5cm}void G\-A\-F\-::\-G\-A\-F\-Sprite\-::set\-External\-Pointer (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{pointer}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_g_a_f_1_1_g_a_f_sprite_a7ef1c87d7a159fa3c29fb17c7c481cd0}
+
+\begin{DoxyParams}{Parameters}
+{\em pointer} & -\/ external pointer to G\-A\-F rendering backend object \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+G\-A\-F\-Sprite.\-h\end{DoxyCompactItemize}

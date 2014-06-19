@@ -1,0 +1,48 @@
+\hypertarget{class_g_a_f_1_1_c_c_texture2_d}{\section{G\-A\-F\-:\-:C\-C\-Texture2\-D Class Reference}
+\label{class_g_a_f_1_1_c_c_texture2_d}\index{G\-A\-F\-::\-C\-C\-Texture2\-D@{G\-A\-F\-::\-C\-C\-Texture2\-D}}
+}
+
+
+{\ttfamily \#include $<$G\-A\-F\-Texture.\-h$>$}
+
+Inheritance diagram for G\-A\-F\-:\-:C\-C\-Texture2\-D\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_g_a_f_1_1_c_c_texture2_d}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_g_a_f_1_1_c_c_texture2_d_af3b2b7faeb932e796ffd249041843236}{bool {\bfseries init\-With\-Image} (\hyperlink{class_g_a_f_1_1_c_c_image}{C\-C\-Image} $\ast$image)}\label{class_g_a_f_1_1_c_c_texture2_d_af3b2b7faeb932e796ffd249041843236}
+
+\item 
+void $\ast$ \hyperlink{class_g_a_f_1_1_c_c_texture2_d_ac0ae70bb23eacafb6947028779fbc456}{get\-External\-Pointer} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_g_a_f_1_1_c_c_texture2_d_a0a962928653419eb50f7f004af35bdd8}{static \hyperlink{class_g_a_f_1_1_c_c_texture2_d}{C\-C\-Texture2\-D} $\ast$ {\bfseries create} ()}\label{class_g_a_f_1_1_c_c_texture2_d_a0a962928653419eb50f7f004af35bdd8}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Internal class of G\-A\-F Marmalade Library. It is used for emulation of Cocos2dx A\-P\-I and envirmonment for the Library. The purpose of the class is to have A\-P\-I that match A\-P\-I of Cocos2dx object, but the class itself has minimal set of features. It does not depend on Cocos2dx. We use it to unify the code of G\-A\-F Libraries across the frameworks. All support classes are located in namespace G\-A\-F. In future G\-A\-F Marmalade can support new rendering backend (other than Cocos2dx), and the effort is made to minimize code differences between libraries. If you are going to use only Cocos2dx as rendering backend you do not have to use theese classes or even know about them. If you are planning to switch to new backend that G\-A\-F Marmalade will support you should not use any Cocos2dx class and instead use your own or classes from cocoagaf. If you need reference counting compatible with any of future releases you should use \hyperlink{class_g_a_f_1_1_c_c_object}{G\-A\-F\-::\-C\-C\-Object} as well. 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_g_a_f_1_1_c_c_texture2_d_ac0ae70bb23eacafb6947028779fbc456}{\index{G\-A\-F\-::\-C\-C\-Texture2\-D@{G\-A\-F\-::\-C\-C\-Texture2\-D}!get\-External\-Pointer@{get\-External\-Pointer}}
+\index{get\-External\-Pointer@{get\-External\-Pointer}!GAF::CCTexture2D@{G\-A\-F\-::\-C\-C\-Texture2\-D}}
+\subsubsection[{get\-External\-Pointer}]{\setlength{\rightskip}{0pt plus 5cm}void$\ast$ G\-A\-F\-::\-C\-C\-Texture2\-D\-::get\-External\-Pointer (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_g_a_f_1_1_c_c_texture2_d_ac0ae70bb23eacafb6947028779fbc456}
+\begin{DoxyReturn}{Returns}
+external pointer to G\-A\-F rendering backend object 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+cocoagaf/G\-A\-F\-Texture.\-h\end{DoxyCompactItemize}

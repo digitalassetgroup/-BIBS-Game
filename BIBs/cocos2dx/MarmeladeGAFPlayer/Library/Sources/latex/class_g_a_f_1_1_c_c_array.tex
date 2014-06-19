@@ -1,0 +1,60 @@
+\hypertarget{class_g_a_f_1_1_c_c_array}{\section{G\-A\-F\-:\-:C\-C\-Array Class Reference}
+\label{class_g_a_f_1_1_c_c_array}\index{G\-A\-F\-::\-C\-C\-Array@{G\-A\-F\-::\-C\-C\-Array}}
+}
+
+
+{\ttfamily \#include $<$G\-A\-F\-Array.\-h$>$}
+
+Inheritance diagram for G\-A\-F\-:\-:C\-C\-Array\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_g_a_f_1_1_c_c_array}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_g_a_f_1_1_c_c_array_a7fee3c1bfabcfcf7fa3f80511e9f2d3e}{unsigned int {\bfseries count} () const }\label{class_g_a_f_1_1_c_c_array_a7fee3c1bfabcfcf7fa3f80511e9f2d3e}
+
+\item 
+\hypertarget{class_g_a_f_1_1_c_c_array_ace44f70634187ea60d918c7d3a7ef971}{\hyperlink{class_g_a_f_1_1_c_c_object}{C\-C\-Object} $\ast$ {\bfseries last\-Object} ()}\label{class_g_a_f_1_1_c_c_array_ace44f70634187ea60d918c7d3a7ef971}
+
+\item 
+\hypertarget{class_g_a_f_1_1_c_c_array_a8ae859d22700439b031242fbe22c982d}{\hyperlink{class_g_a_f_1_1_c_c_object}{C\-C\-Object} $\ast$ {\bfseries object\-At\-Index} (unsigned int index)}\label{class_g_a_f_1_1_c_c_array_a8ae859d22700439b031242fbe22c982d}
+
+\item 
+\hypertarget{class_g_a_f_1_1_c_c_array_aa60d1a846fb8110a5f0720a6108d8de1}{void {\bfseries add\-Object} (\hyperlink{class_g_a_f_1_1_c_c_object}{C\-C\-Object} $\ast$object)}\label{class_g_a_f_1_1_c_c_array_aa60d1a846fb8110a5f0720a6108d8de1}
+
+\item 
+\hypertarget{class_g_a_f_1_1_c_c_array_a8131e3de0c1763c280a5446fce6432ab}{void {\bfseries remove\-All\-Objects} ()}\label{class_g_a_f_1_1_c_c_array_a8131e3de0c1763c280a5446fce6432ab}
+
+\item 
+\hypertarget{class_g_a_f_1_1_c_c_array_a6d4e35202989cf876fe8683652bc6352}{void {\bfseries remove\-Last\-Object} ()}\label{class_g_a_f_1_1_c_c_array_a6d4e35202989cf876fe8683652bc6352}
+
+\item 
+\hypertarget{class_g_a_f_1_1_c_c_array_a158b2114ddb9988588195bf9515cad7b}{void {\bfseries fast\-Remove\-Object\-At\-Index} (int index)}\label{class_g_a_f_1_1_c_c_array_a158b2114ddb9988588195bf9515cad7b}
+
+\item 
+\hypertarget{class_g_a_f_1_1_c_c_array_ae3c8354f2d5420781817303f0b61d097}{std\-::vector$<$ \hyperlink{class_g_a_f_1_1_c_c_object}{C\-C\-Object} $\ast$ $>$ \& {\bfseries vect} ()}\label{class_g_a_f_1_1_c_c_array_ae3c8354f2d5420781817303f0b61d097}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_g_a_f_1_1_c_c_array_a947a45d82f708788099f2e8dbcea2dd3}{static \hyperlink{class_g_a_f_1_1_c_c_array}{C\-C\-Array} $\ast$ {\bfseries create} ()}\label{class_g_a_f_1_1_c_c_array_a947a45d82f708788099f2e8dbcea2dd3}
+
+\item 
+\hypertarget{class_g_a_f_1_1_c_c_array_a247c90f7c332f7e49e950f297793d598}{static \hyperlink{class_g_a_f_1_1_c_c_array}{C\-C\-Array} $\ast$ {\bfseries create\-With\-Array} (\hyperlink{class_g_a_f_1_1_c_c_array}{C\-C\-Array} $\ast$array)}\label{class_g_a_f_1_1_c_c_array_a247c90f7c332f7e49e950f297793d598}
+
+\item 
+\hypertarget{class_g_a_f_1_1_c_c_array_a68779ee5b8c9e3e105b13016faf0298f}{static \hyperlink{class_g_a_f_1_1_c_c_array}{C\-C\-Array} $\ast$ {\bfseries create\-With\-Capacity} (int size)}\label{class_g_a_f_1_1_c_c_array_a68779ee5b8c9e3e105b13016faf0298f}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Internal class of G\-A\-F Marmalade Library. It is used for emulation of Cocos2dx A\-P\-I and envirmonment for the Library. The purpose of the class is to have A\-P\-I that match A\-P\-I of Cocos2dx object, but the class itself has minimal set of features. It does not depend on Cocos2dx. We use it to unify the code of G\-A\-F Libraries across the frameworks. All support classes are located in namespace G\-A\-F. In future G\-A\-F Marmalade can support new rendering backend (other than Cocos2dx), and the effort is made to minimize code differences between libraries. If you are going to use only Cocos2dx as rendering backend you do not have to use theese classes or even know about them. If you are planning to switch to new backend that G\-A\-F Marmalade will support you should not use any Cocos2dx class and instead use your own or classes from cocoagaf. If you need reference counting compatible with any of future releases you should use \hyperlink{class_g_a_f_1_1_c_c_object}{G\-A\-F\-::\-C\-C\-Object} as well. 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+cocoagaf/G\-A\-F\-Array.\-h\end{DoxyCompactItemize}

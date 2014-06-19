@@ -1,0 +1,620 @@
+\hypertarget{class_g_a_f_1_1_g_a_f_marmalade_g_f_x}{\section{G\-A\-F\-:\-:G\-A\-F\-Marmalade\-G\-F\-X Class Reference}
+\label{class_g_a_f_1_1_g_a_f_marmalade_g_f_x}\index{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}}
+}
+
+
+{\ttfamily \#include $<$G\-A\-F\-Marmalade.\-h$>$}
+
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void $\ast$ \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a3cf51925d3bcba812aa68d6f795776e8}{create\-Image} (const char $\ast$path)
+\item 
+static void \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a9170f1540e2d6672d76f18ed405f74e3}{release\-Image} (void $\ast$image)
+\item 
+static void $\ast$ \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a39395671c1920c67a28e5b0d83ade354}{create\-Texture} (void $\ast$image)
+\item 
+static void \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a1816b3f6a535721350373376256cb634}{release\-Texture} (void $\ast$texture)
+\item 
+\hypertarget{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a51f213df0e537a5994f89f66f93d8cbc}{static void $\ast$ \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a51f213df0e537a5994f89f66f93d8cbc}{create\-Sprite\-Container} ()}\label{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a51f213df0e537a5994f89f66f93d8cbc}
+
+\begin{DoxyCompactList}\small\item\em You backend must have \char`\"{}sprite\-Container\char`\"{} abstraction. Most likely it is sprite itself. \end{DoxyCompactList}\item 
+static void \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a7cd848f49d9aa6845a7c3d23b398b962}{release\-Sprite\-Container} (void $\ast$sprite\-Contaner)
+\item 
+static void \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a5ca22e99c8365ea12c844204b2a490ca}{set\-Sprite\-Container\-Scale} (void $\ast$sprite\-Contaner, float scale)
+\item 
+static void \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a0b97999d542ee4f2a303b0e62db74e86}{set\-Sprite\-Container\-Position} (void $\ast$sprte\-Container, float x, float y)
+\item 
+static void \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a99623ee7afb73f8b34ea38558d48d550}{set\-Sprite\-Position} (void $\ast$sprte, float x, float y)
+\item 
+static void \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a27662973702e6c78a2ea08d9b1a2f66e}{set\-Sprite\-Locator} (void $\ast$sprte, bool locator)
+\item 
+\hypertarget{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a532e1b916a435589f352be1d0fd64be1}{static void $\ast$ \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a532e1b916a435589f352be1d0fd64be1}{create\-Sprite} (\hyperlink{class_g_a_f_1_1_g_a_f_sprite_callback}{G\-A\-F\-::\-G\-A\-F\-Sprite\-Callback} $\ast$cb)}\label{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a532e1b916a435589f352be1d0fd64be1}
+
+\begin{DoxyCompactList}\small\item\em You backend must have \char`\"{}sprite\char`\"{} abstraction. \end{DoxyCompactList}\item 
+\hypertarget{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a8576303216810d7cf998033bbb448eb3}{static void $\ast$ \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a8576303216810d7cf998033bbb448eb3}{create\-Stencil\-Sprite} (\hyperlink{class_g_a_f_1_1_g_a_f_sprite_callback}{G\-A\-F\-::\-G\-A\-F\-Sprite\-Callback} $\ast$cb)}\label{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a8576303216810d7cf998033bbb448eb3}
+
+\begin{DoxyCompactList}\small\item\em You backend must have \char`\"{}stencil sprite\char`\"{} abstraction. It must support masked objects. \end{DoxyCompactList}\item 
+static void \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a549dc4e4ea1b208815a4efbb8fb3573d}{stencil\-Sprite\-Add\-Masked\-Object} (void $\ast$stencil\-Sprite, void $\ast$masked\-Object)
+\item 
+static void \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_abc8a09dd883016053e10b31b6cdc4f5d}{stencil\-Sprite\-Update\-Mask\-Container\-Of} (void $\ast$stencil\-Sprite)
+\item 
+static bool \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a2026106206694ae8479daee70e25ac77}{init\-Sprite} (void $\ast$sprite, void $\ast$texture, float x, float y, float w, float h, bool rotated)
+\item 
+static void \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a6903462f1f840fff5a45312cda08c5e3}{release\-Sprite} (void $\ast$sprite)
+\item 
+static void \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_accfa7a7c4665d5613a5c185603c2ae47}{set\-Sprite\-Transform} (void $\ast$sprite, const \hyperlink{class_g_a_f_1_1_c_c_affine_transform}{C\-C\-Affine\-Transform} \&transform)
+\item 
+static void $\ast$ \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_aa85e3d2d9c75297bbadcb8f36beef8d7}{create\-Sprite\-Frame} (void $\ast$texture, float x, float y, float w, float h)
+\item 
+static void \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_adc04e3b9f1e994a2bcebeadd88bd84ec}{release\-Sprite\-Frame} (void $\ast$sprite\-Frame)
+\item 
+static float \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a1cf7a56263c10187a2e154ba73c924f5}{get\-Sprite\-Content\-Size\-Width} (void $\ast$sprite)
+\item 
+static float \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a4820e51a219e807d0f1bf2f31faa7a4e}{get\-Sprite\-Content\-Size\-Height} (void $\ast$sprite)
+\item 
+static float \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a11fbebb5124bfc2a2f442eda4d0f8dc7}{get\-Sprite\-Anchor\-Position\-X} (void $\ast$sprite)
+\item 
+static float \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a77414124423838b04cd30cf983b7c664}{get\-Sprite\-Anchor\-Position\-Y} (void $\ast$sprite)
+\item 
+static int \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a66e33e99c61c1c32fd5335f7a563b42e}{get\-Sprite\-Zorder} (void $\ast$sprite)
+\item 
+static void \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a4094142fd3844a976e0ca03a5c64098f}{set\-Sprite\-Atlas\-Scale} (void $\ast$sprite, float scale)
+\item 
+static void $\ast$ \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a2b2282d1facfe40492e1d26ebc6c99dd}{get\-Sprite\-Parent} (void $\ast$sprite)
+\item 
+static void \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a5139d0f53eee9c67fa0995b1a8a2c9a4}{set\-Sprite\-Blur\-Radius} (void $\ast$sprite, float width, float height)
+\item 
+static void \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a64d246d6346ac1bd7de834894e92ba5a}{set\-Sprite\-Shader} (void $\ast$sprite, void $\ast$shader)
+\item 
+static void \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_ad959554fc1cb14e8cf36efe269669d1f}{set\-Sprite\-Visible} (void $\ast$sprite, bool visible)
+\item 
+static void \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a5a12ea4b0fe453a0fc8dd46a3504bbe3}{set\-Sprite\-Anchor\-Point} (void $\ast$sprite, float x, float y)
+\item 
+static void \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_aa1ee9a51e41aef8ef9ad197d80e51bfd}{set\-Sprite\-Zorder} (void $\ast$sprite, int z\-Order)
+\item 
+static void \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a97f7a8f2f82bcf2286cc3daaeec65046}{set\-Alpha\-Blending\-For\-Sprite} (void $\ast$sprite)
+\item 
+static void \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_aad2b1d54954271b383655900c7a9b704}{set\-Sprite\-Container\-Zorder} (void $\ast$sprite\-Container, int z\-Order)
+\item 
+static void \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_aa9306a997c52bb7b03ef2e13cf73297c}{scene\-Add\-Sprite\-Container} (void $\ast$scene, void $\ast$sprite\-Container)
+\item 
+static void \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a4e64e1c2a13125991357524949ea9472}{scene\-Remove\-Sprite\-Container} (void $\ast$scene, void $\ast$sprite\-Container)
+\item 
+static void \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a2f34d292870b7b7878665489873d5aaa}{sprite\-Container\-Add\-Sprite} (void $\ast$sprite\-Container, void $\ast$sprite)
+\item 
+static void \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a9834611e200459c3d0029caf080efd33}{sprite\-Container\-Remove\-Sprite} (void $\ast$sprite\-Container, void $\ast$sprite, bool cleanup)
+\item 
+static bool \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a948922dd8b7b9ae7bf4854cb81427ea4}{init\-Sprite\-With\-Sprite\-Frame} (void $\ast$sprite, void $\ast$sprite\-Frame)
+\item 
+\hypertarget{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_acbe20a989f371ede8c045280f42d0b6d}{static void \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_acbe20a989f371ede8c045280f42d0b6d}{schedule\-Update\-Per\-Frame} (\hyperlink{class_g_a_f_1_1_c_c_object}{C\-C\-Object} $\ast$object, G\-A\-F\-S\-E\-L\-\_\-\-Call\-Func)}\label{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_acbe20a989f371ede8c045280f42d0b6d}
+
+\begin{DoxyCompactList}\small\item\em used to update animations internally \end{DoxyCompactList}\item 
+\hypertarget{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a85b396b19691358b7b1318eb65ed9c7a}{static void {\bfseries unschedule\-Update\-Per\-Frame} (\hyperlink{class_g_a_f_1_1_c_c_object}{C\-C\-Object} $\ast$object, G\-A\-F\-S\-E\-L\-\_\-\-Call\-Func)}\label{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a85b396b19691358b7b1318eb65ed9c7a}
+
+\item 
+\hypertarget{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a29a77c913497ddef3396f1e430ba428e}{static float \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a29a77c913497ddef3396f1e430ba428e}{get\-Animation\-Interval} ()}\label{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a29a77c913497ddef3396f1e430ba428e}
+
+\begin{DoxyCompactList}\small\item\em used to get interval between frames in seconds \end{DoxyCompactList}\item 
+static void \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a1c70fe78be6ca6ec191b38aa91c5fa44}{on\-Frame} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyNote}{Note}
+You must call \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a1c70fe78be6ca6ec191b38aa91c5fa44}{on\-Frame()} every frame after your rendering step is over or at the beginning of the frame.
+\end{DoxyNote}
+To implemnet rendering playback other than Cocos2dx you must implement all functions listed in \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x}{G\-A\-F\-Marmalade\-G\-F\-X}. For sample implementation you can check current Cocos2dx-\/bases implementation. Our advice is to contact gafmedia.\-com before you start to work on your own backend -\/ most likely backend you need is already in development. We tryed to be as less demanding as we can in terms of backend features you need to implement \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x}{G\-A\-F\-Marmalade\-G\-F\-X}. If your game engine features sprites, transformation and Open\-G\-L E\-S shaders it should not take too long to implement playback. If you have only Open\-G\-L E\-S immediate mode then things are more diffictult to you -\/ you have to implement mentioned abstructions. The most important thing with immediate mode implementation is carefully set and restore Open\-G\-L states. 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a3cf51925d3bcba812aa68d6f795776e8}{\index{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}!create\-Image@{create\-Image}}
+\index{create\-Image@{create\-Image}!GAF::GAFMarmaladeGFX@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}}
+\subsubsection[{create\-Image}]{\setlength{\rightskip}{0pt plus 5cm}static void$\ast$ G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X\-::create\-Image (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{path}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a3cf51925d3bcba812aa68d6f795776e8}
+You backend must have \char`\"{}image\char`\"{} abstraction. 
+\begin{DoxyParams}{Parameters}
+{\em path} & -\/ resource path. This can be anything, but most likely it will be file system path. If you are going to do something else note that your code should respect image paths produced by G\-A\-F converter. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_aa85e3d2d9c75297bbadcb8f36beef8d7}{\index{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}!create\-Sprite\-Frame@{create\-Sprite\-Frame}}
+\index{create\-Sprite\-Frame@{create\-Sprite\-Frame}!GAF::GAFMarmaladeGFX@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}}
+\subsubsection[{create\-Sprite\-Frame}]{\setlength{\rightskip}{0pt plus 5cm}static void$\ast$ G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X\-::create\-Sprite\-Frame (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{texture, }
+\item[{float}]{x, }
+\item[{float}]{y, }
+\item[{float}]{w, }
+\item[{float}]{h}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_aa85e3d2d9c75297bbadcb8f36beef8d7}
+Your backend must have sprite frame abstraction. Basially it is just texture and texture rect. 
+\begin{DoxyParams}{Parameters}
+{\em texture} & -\/ created by \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a39395671c1920c67a28e5b0d83ade354}{G\-A\-F\-Marmalade\-G\-F\-X\-::create\-Texture} \\
+\hline
+{\em x,y,w,h} & -\/ texture rect \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a39395671c1920c67a28e5b0d83ade354}{\index{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}!create\-Texture@{create\-Texture}}
+\index{create\-Texture@{create\-Texture}!GAF::GAFMarmaladeGFX@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}}
+\subsubsection[{create\-Texture}]{\setlength{\rightskip}{0pt plus 5cm}static void$\ast$ G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X\-::create\-Texture (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{image}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a39395671c1920c67a28e5b0d83ade354}
+You backend must have \char`\"{}texture\char`\"{} abstraction. 
+\begin{DoxyParams}{Parameters}
+{\em image} & -\/ image created by \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a3cf51925d3bcba812aa68d6f795776e8}{G\-A\-F\-Marmalade\-G\-F\-X\-::create\-Image} \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a11fbebb5124bfc2a2f442eda4d0f8dc7}{\index{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}!get\-Sprite\-Anchor\-Position\-X@{get\-Sprite\-Anchor\-Position\-X}}
+\index{get\-Sprite\-Anchor\-Position\-X@{get\-Sprite\-Anchor\-Position\-X}!GAF::GAFMarmaladeGFX@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}}
+\subsubsection[{get\-Sprite\-Anchor\-Position\-X}]{\setlength{\rightskip}{0pt plus 5cm}static float G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X\-::get\-Sprite\-Anchor\-Position\-X (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{sprite}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a11fbebb5124bfc2a2f442eda4d0f8dc7}
+
+\begin{DoxyParams}{Parameters}
+{\em sprite} & -\/ created by \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a532e1b916a435589f352be1d0fd64be1}{G\-A\-F\-Marmalade\-G\-F\-X\-::create\-Sprite} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+x position of sprite's anchor point 
+\end{DoxyReturn}
+\hypertarget{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a77414124423838b04cd30cf983b7c664}{\index{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}!get\-Sprite\-Anchor\-Position\-Y@{get\-Sprite\-Anchor\-Position\-Y}}
+\index{get\-Sprite\-Anchor\-Position\-Y@{get\-Sprite\-Anchor\-Position\-Y}!GAF::GAFMarmaladeGFX@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}}
+\subsubsection[{get\-Sprite\-Anchor\-Position\-Y}]{\setlength{\rightskip}{0pt plus 5cm}static float G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X\-::get\-Sprite\-Anchor\-Position\-Y (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{sprite}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a77414124423838b04cd30cf983b7c664}
+
+\begin{DoxyParams}{Parameters}
+{\em sprite} & -\/ created by \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a532e1b916a435589f352be1d0fd64be1}{G\-A\-F\-Marmalade\-G\-F\-X\-::create\-Sprite} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+y position of sprite's anchor point 
+\end{DoxyReturn}
+\hypertarget{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a4820e51a219e807d0f1bf2f31faa7a4e}{\index{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}!get\-Sprite\-Content\-Size\-Height@{get\-Sprite\-Content\-Size\-Height}}
+\index{get\-Sprite\-Content\-Size\-Height@{get\-Sprite\-Content\-Size\-Height}!GAF::GAFMarmaladeGFX@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}}
+\subsubsection[{get\-Sprite\-Content\-Size\-Height}]{\setlength{\rightskip}{0pt plus 5cm}static float G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X\-::get\-Sprite\-Content\-Size\-Height (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{sprite}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a4820e51a219e807d0f1bf2f31faa7a4e}
+
+\begin{DoxyParams}{Parameters}
+{\em sprite} & -\/ created by \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a532e1b916a435589f352be1d0fd64be1}{G\-A\-F\-Marmalade\-G\-F\-X\-::create\-Sprite} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+content size height 
+\end{DoxyReturn}
+\hypertarget{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a1cf7a56263c10187a2e154ba73c924f5}{\index{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}!get\-Sprite\-Content\-Size\-Width@{get\-Sprite\-Content\-Size\-Width}}
+\index{get\-Sprite\-Content\-Size\-Width@{get\-Sprite\-Content\-Size\-Width}!GAF::GAFMarmaladeGFX@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}}
+\subsubsection[{get\-Sprite\-Content\-Size\-Width}]{\setlength{\rightskip}{0pt plus 5cm}static float G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X\-::get\-Sprite\-Content\-Size\-Width (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{sprite}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a1cf7a56263c10187a2e154ba73c924f5}
+
+\begin{DoxyParams}{Parameters}
+{\em sprite} & -\/ created by \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a532e1b916a435589f352be1d0fd64be1}{G\-A\-F\-Marmalade\-G\-F\-X\-::create\-Sprite} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+content size width 
+\end{DoxyReturn}
+\hypertarget{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a2b2282d1facfe40492e1d26ebc6c99dd}{\index{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}!get\-Sprite\-Parent@{get\-Sprite\-Parent}}
+\index{get\-Sprite\-Parent@{get\-Sprite\-Parent}!GAF::GAFMarmaladeGFX@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}}
+\subsubsection[{get\-Sprite\-Parent}]{\setlength{\rightskip}{0pt plus 5cm}static void$\ast$ G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X\-::get\-Sprite\-Parent (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{sprite}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a2b2282d1facfe40492e1d26ebc6c99dd}
+
+\begin{DoxyParams}{Parameters}
+{\em sprite} & -\/ created by \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a532e1b916a435589f352be1d0fd64be1}{G\-A\-F\-Marmalade\-G\-F\-X\-::create\-Sprite} \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a66e33e99c61c1c32fd5335f7a563b42e}{\index{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}!get\-Sprite\-Zorder@{get\-Sprite\-Zorder}}
+\index{get\-Sprite\-Zorder@{get\-Sprite\-Zorder}!GAF::GAFMarmaladeGFX@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}}
+\subsubsection[{get\-Sprite\-Zorder}]{\setlength{\rightskip}{0pt plus 5cm}static int G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X\-::get\-Sprite\-Zorder (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{sprite}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a66e33e99c61c1c32fd5335f7a563b42e}
+
+\begin{DoxyParams}{Parameters}
+{\em sprite} & -\/ created by \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a532e1b916a435589f352be1d0fd64be1}{G\-A\-F\-Marmalade\-G\-F\-X\-::create\-Sprite} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+z order of the sprite 
+\end{DoxyReturn}
+\hypertarget{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a2026106206694ae8479daee70e25ac77}{\index{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}!init\-Sprite@{init\-Sprite}}
+\index{init\-Sprite@{init\-Sprite}!GAF::GAFMarmaladeGFX@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}}
+\subsubsection[{init\-Sprite}]{\setlength{\rightskip}{0pt plus 5cm}static bool G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X\-::init\-Sprite (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{sprite, }
+\item[{void $\ast$}]{texture, }
+\item[{float}]{x, }
+\item[{float}]{y, }
+\item[{float}]{w, }
+\item[{float}]{h, }
+\item[{bool}]{rotated}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a2026106206694ae8479daee70e25ac77}
+Sprite initialization 
+\begin{DoxyParams}{Parameters}
+{\em sprite} & -\/ created by \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a532e1b916a435589f352be1d0fd64be1}{G\-A\-F\-Marmalade\-G\-F\-X\-::create\-Sprite} \\
+\hline
+{\em texture} & -\/ created by \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a39395671c1920c67a28e5b0d83ade354}{G\-A\-F\-Marmalade\-G\-F\-X\-::create\-Texture} \\
+\hline
+{\em x,y,w,h} & -\/ sprite rect \\
+\hline
+{\em rotated} & -\/ if sprite rect rotated or not \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a948922dd8b7b9ae7bf4854cb81427ea4}{\index{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}!init\-Sprite\-With\-Sprite\-Frame@{init\-Sprite\-With\-Sprite\-Frame}}
+\index{init\-Sprite\-With\-Sprite\-Frame@{init\-Sprite\-With\-Sprite\-Frame}!GAF::GAFMarmaladeGFX@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}}
+\subsubsection[{init\-Sprite\-With\-Sprite\-Frame}]{\setlength{\rightskip}{0pt plus 5cm}static bool G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X\-::init\-Sprite\-With\-Sprite\-Frame (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{sprite, }
+\item[{void $\ast$}]{sprite\-Frame}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a948922dd8b7b9ae7bf4854cb81427ea4}
+
+\begin{DoxyParams}{Parameters}
+{\em sprite} & -\/ created by \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a532e1b916a435589f352be1d0fd64be1}{G\-A\-F\-Marmalade\-G\-F\-X\-::create\-Sprite} \\
+\hline
+{\em sprite\-Frame} & -\/ created by \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_aa85e3d2d9c75297bbadcb8f36beef8d7}{G\-A\-F\-Marmalade\-G\-F\-X\-::create\-Sprite\-Frame} \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a1c70fe78be6ca6ec191b38aa91c5fa44}{\index{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}!on\-Frame@{on\-Frame}}
+\index{on\-Frame@{on\-Frame}!GAF::GAFMarmaladeGFX@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}}
+\subsubsection[{on\-Frame}]{\setlength{\rightskip}{0pt plus 5cm}static void G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X\-::on\-Frame (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a1c70fe78be6ca6ec191b38aa91c5fa44}
+\begin{DoxyNote}{Note}
+You must call \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a1c70fe78be6ca6ec191b38aa91c5fa44}{on\-Frame()} every frame after your rendering step is over or at the beginning of the frame. 
+\end{DoxyNote}
+\hypertarget{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a9170f1540e2d6672d76f18ed405f74e3}{\index{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}!release\-Image@{release\-Image}}
+\index{release\-Image@{release\-Image}!GAF::GAFMarmaladeGFX@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}}
+\subsubsection[{release\-Image}]{\setlength{\rightskip}{0pt plus 5cm}static void G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X\-::release\-Image (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{image}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a9170f1540e2d6672d76f18ed405f74e3}
+
+\begin{DoxyParams}{Parameters}
+{\em image} & -\/ created by \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a3cf51925d3bcba812aa68d6f795776e8}{G\-A\-F\-Marmalade\-G\-F\-X\-::create\-Image} \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a6903462f1f840fff5a45312cda08c5e3}{\index{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}!release\-Sprite@{release\-Sprite}}
+\index{release\-Sprite@{release\-Sprite}!GAF::GAFMarmaladeGFX@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}}
+\subsubsection[{release\-Sprite}]{\setlength{\rightskip}{0pt plus 5cm}static void G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X\-::release\-Sprite (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{sprite}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a6903462f1f840fff5a45312cda08c5e3}
+
+\begin{DoxyParams}{Parameters}
+{\em sprite} & -\/ created by create\-Sprite \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a7cd848f49d9aa6845a7c3d23b398b962}{\index{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}!release\-Sprite\-Container@{release\-Sprite\-Container}}
+\index{release\-Sprite\-Container@{release\-Sprite\-Container}!GAF::GAFMarmaladeGFX@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}}
+\subsubsection[{release\-Sprite\-Container}]{\setlength{\rightskip}{0pt plus 5cm}static void G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X\-::release\-Sprite\-Container (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{sprite\-Contaner}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a7cd848f49d9aa6845a7c3d23b398b962}
+
+\begin{DoxyParams}{Parameters}
+{\em sprite\-Contaner} & -\/ create by \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a51f213df0e537a5994f89f66f93d8cbc}{G\-A\-F\-Marmalade\-G\-F\-X\-::create\-Sprite\-Container} \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_adc04e3b9f1e994a2bcebeadd88bd84ec}{\index{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}!release\-Sprite\-Frame@{release\-Sprite\-Frame}}
+\index{release\-Sprite\-Frame@{release\-Sprite\-Frame}!GAF::GAFMarmaladeGFX@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}}
+\subsubsection[{release\-Sprite\-Frame}]{\setlength{\rightskip}{0pt plus 5cm}static void G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X\-::release\-Sprite\-Frame (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{sprite\-Frame}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_adc04e3b9f1e994a2bcebeadd88bd84ec}
+
+\begin{DoxyParams}{Parameters}
+{\em sprite\-Frame} & -\/ created by \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_aa85e3d2d9c75297bbadcb8f36beef8d7}{G\-A\-F\-Marmalade\-G\-F\-X\-::create\-Sprite\-Frame} \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a1816b3f6a535721350373376256cb634}{\index{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}!release\-Texture@{release\-Texture}}
+\index{release\-Texture@{release\-Texture}!GAF::GAFMarmaladeGFX@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}}
+\subsubsection[{release\-Texture}]{\setlength{\rightskip}{0pt plus 5cm}static void G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X\-::release\-Texture (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{texture}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a1816b3f6a535721350373376256cb634}
+
+\begin{DoxyParams}{Parameters}
+{\em texture} & -\/ created by \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a39395671c1920c67a28e5b0d83ade354}{G\-A\-F\-Marmalade\-G\-F\-X\-::create\-Texture} \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_aa9306a997c52bb7b03ef2e13cf73297c}{\index{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}!scene\-Add\-Sprite\-Container@{scene\-Add\-Sprite\-Container}}
+\index{scene\-Add\-Sprite\-Container@{scene\-Add\-Sprite\-Container}!GAF::GAFMarmaladeGFX@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}}
+\subsubsection[{scene\-Add\-Sprite\-Container}]{\setlength{\rightskip}{0pt plus 5cm}static void G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X\-::scene\-Add\-Sprite\-Container (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{scene, }
+\item[{void $\ast$}]{sprite\-Container}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_aa9306a997c52bb7b03ef2e13cf73297c}
+adds sprite container to scene 
+\begin{DoxyParams}{Parameters}
+{\em scene} & -\/ object that can contin sprite containers. \\
+\hline
+{\em sprite\-Container} & -\/ created by \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a51f213df0e537a5994f89f66f93d8cbc}{G\-A\-F\-Marmalade\-G\-F\-X\-::create\-Sprite\-Container} \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a4e64e1c2a13125991357524949ea9472}{\index{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}!scene\-Remove\-Sprite\-Container@{scene\-Remove\-Sprite\-Container}}
+\index{scene\-Remove\-Sprite\-Container@{scene\-Remove\-Sprite\-Container}!GAF::GAFMarmaladeGFX@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}}
+\subsubsection[{scene\-Remove\-Sprite\-Container}]{\setlength{\rightskip}{0pt plus 5cm}static void G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X\-::scene\-Remove\-Sprite\-Container (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{scene, }
+\item[{void $\ast$}]{sprite\-Container}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a4e64e1c2a13125991357524949ea9472}
+removes sprite container from scene 
+\begin{DoxyParams}{Parameters}
+{\em scene} & -\/ object that can contin sprite containers. \\
+\hline
+{\em sprite\-Container} & -\/ created by \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a51f213df0e537a5994f89f66f93d8cbc}{G\-A\-F\-Marmalade\-G\-F\-X\-::create\-Sprite\-Container} \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a97f7a8f2f82bcf2286cc3daaeec65046}{\index{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}!set\-Alpha\-Blending\-For\-Sprite@{set\-Alpha\-Blending\-For\-Sprite}}
+\index{set\-Alpha\-Blending\-For\-Sprite@{set\-Alpha\-Blending\-For\-Sprite}!GAF::GAFMarmaladeGFX@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}}
+\subsubsection[{set\-Alpha\-Blending\-For\-Sprite}]{\setlength{\rightskip}{0pt plus 5cm}static void G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X\-::set\-Alpha\-Blending\-For\-Sprite (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{sprite}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a97f7a8f2f82bcf2286cc3daaeec65046}
+Must set parameters that are equivalent to the following \-: src -\/ O\-N\-E dst -\/ O\-N\-E\-\_\-\-M\-I\-N\-U\-S\-\_\-\-S\-R\-C\-\_\-\-A\-L\-P\-H\-A 
+\begin{DoxyParams}{Parameters}
+{\em sprite} & -\/ created by \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a532e1b916a435589f352be1d0fd64be1}{G\-A\-F\-Marmalade\-G\-F\-X\-::create\-Sprite} \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a5a12ea4b0fe453a0fc8dd46a3504bbe3}{\index{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}!set\-Sprite\-Anchor\-Point@{set\-Sprite\-Anchor\-Point}}
+\index{set\-Sprite\-Anchor\-Point@{set\-Sprite\-Anchor\-Point}!GAF::GAFMarmaladeGFX@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}}
+\subsubsection[{set\-Sprite\-Anchor\-Point}]{\setlength{\rightskip}{0pt plus 5cm}static void G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X\-::set\-Sprite\-Anchor\-Point (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{sprite, }
+\item[{float}]{x, }
+\item[{float}]{y}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a5a12ea4b0fe453a0fc8dd46a3504bbe3}
+
+\begin{DoxyParams}{Parameters}
+{\em sprite} & -\/ created by \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a532e1b916a435589f352be1d0fd64be1}{G\-A\-F\-Marmalade\-G\-F\-X\-::create\-Sprite} \\
+\hline
+{\em x,y} & -\/ ahchor point \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a4094142fd3844a976e0ca03a5c64098f}{\index{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}!set\-Sprite\-Atlas\-Scale@{set\-Sprite\-Atlas\-Scale}}
+\index{set\-Sprite\-Atlas\-Scale@{set\-Sprite\-Atlas\-Scale}!GAF::GAFMarmaladeGFX@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}}
+\subsubsection[{set\-Sprite\-Atlas\-Scale}]{\setlength{\rightskip}{0pt plus 5cm}static void G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X\-::set\-Sprite\-Atlas\-Scale (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{sprite, }
+\item[{float}]{scale}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a4094142fd3844a976e0ca03a5c64098f}
+set G\-A\-F atlas scale of the sprite 
+\begin{DoxyParams}{Parameters}
+{\em sprite} & -\/ created by \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a532e1b916a435589f352be1d0fd64be1}{G\-A\-F\-Marmalade\-G\-F\-X\-::create\-Sprite} \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a5139d0f53eee9c67fa0995b1a8a2c9a4}{\index{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}!set\-Sprite\-Blur\-Radius@{set\-Sprite\-Blur\-Radius}}
+\index{set\-Sprite\-Blur\-Radius@{set\-Sprite\-Blur\-Radius}!GAF::GAFMarmaladeGFX@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}}
+\subsubsection[{set\-Sprite\-Blur\-Radius}]{\setlength{\rightskip}{0pt plus 5cm}static void G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X\-::set\-Sprite\-Blur\-Radius (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{sprite, }
+\item[{float}]{width, }
+\item[{float}]{height}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a5139d0f53eee9c67fa0995b1a8a2c9a4}
+
+\begin{DoxyParams}{Parameters}
+{\em sprite} & -\/ created by \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a532e1b916a435589f352be1d0fd64be1}{G\-A\-F\-Marmalade\-G\-F\-X\-::create\-Sprite} \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a0b97999d542ee4f2a303b0e62db74e86}{\index{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}!set\-Sprite\-Container\-Position@{set\-Sprite\-Container\-Position}}
+\index{set\-Sprite\-Container\-Position@{set\-Sprite\-Container\-Position}!GAF::GAFMarmaladeGFX@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}}
+\subsubsection[{set\-Sprite\-Container\-Position}]{\setlength{\rightskip}{0pt plus 5cm}static void G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X\-::set\-Sprite\-Container\-Position (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{sprte\-Container, }
+\item[{float}]{x, }
+\item[{float}]{y}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a0b97999d542ee4f2a303b0e62db74e86}
+\begin{DoxyNote}{Note}
+sprites located in sprite continer must respect parent's position 
+\end{DoxyNote}
+\hypertarget{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a5ca22e99c8365ea12c844204b2a490ca}{\index{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}!set\-Sprite\-Container\-Scale@{set\-Sprite\-Container\-Scale}}
+\index{set\-Sprite\-Container\-Scale@{set\-Sprite\-Container\-Scale}!GAF::GAFMarmaladeGFX@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}}
+\subsubsection[{set\-Sprite\-Container\-Scale}]{\setlength{\rightskip}{0pt plus 5cm}static void G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X\-::set\-Sprite\-Container\-Scale (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{sprite\-Contaner, }
+\item[{float}]{scale}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a5ca22e99c8365ea12c844204b2a490ca}
+\begin{DoxyNote}{Note}
+sprites located in sprite continer must respect parent's scale 
+\end{DoxyNote}
+\hypertarget{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_aad2b1d54954271b383655900c7a9b704}{\index{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}!set\-Sprite\-Container\-Zorder@{set\-Sprite\-Container\-Zorder}}
+\index{set\-Sprite\-Container\-Zorder@{set\-Sprite\-Container\-Zorder}!GAF::GAFMarmaladeGFX@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}}
+\subsubsection[{set\-Sprite\-Container\-Zorder}]{\setlength{\rightskip}{0pt plus 5cm}static void G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X\-::set\-Sprite\-Container\-Zorder (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{sprite\-Container, }
+\item[{int}]{z\-Order}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_aad2b1d54954271b383655900c7a9b704}
+
+\begin{DoxyParams}{Parameters}
+{\em sprite\-Container} & -\/ created by \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a51f213df0e537a5994f89f66f93d8cbc}{G\-A\-F\-Marmalade\-G\-F\-X\-::create\-Sprite\-Container} \\
+\hline
+{\em z\-Order} & -\/ z order \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a27662973702e6c78a2ea08d9b1a2f66e}{\index{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}!set\-Sprite\-Locator@{set\-Sprite\-Locator}}
+\index{set\-Sprite\-Locator@{set\-Sprite\-Locator}!GAF::GAFMarmaladeGFX@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}}
+\subsubsection[{set\-Sprite\-Locator}]{\setlength{\rightskip}{0pt plus 5cm}static void G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X\-::set\-Sprite\-Locator (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{sprte, }
+\item[{bool}]{locator}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a27662973702e6c78a2ea08d9b1a2f66e}
+
+\begin{DoxyParams}{Parameters}
+{\em sprte} & -\/ created by \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a532e1b916a435589f352be1d0fd64be1}{G\-A\-F\-Marmalade\-G\-F\-X\-::create\-Sprite} \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a99623ee7afb73f8b34ea38558d48d550}{\index{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}!set\-Sprite\-Position@{set\-Sprite\-Position}}
+\index{set\-Sprite\-Position@{set\-Sprite\-Position}!GAF::GAFMarmaladeGFX@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}}
+\subsubsection[{set\-Sprite\-Position}]{\setlength{\rightskip}{0pt plus 5cm}static void G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X\-::set\-Sprite\-Position (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{sprte, }
+\item[{float}]{x, }
+\item[{float}]{y}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a99623ee7afb73f8b34ea38558d48d550}
+
+\begin{DoxyParams}{Parameters}
+{\em sprte} & -\/ created by \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a532e1b916a435589f352be1d0fd64be1}{G\-A\-F\-Marmalade\-G\-F\-X\-::create\-Sprite} \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a64d246d6346ac1bd7de834894e92ba5a}{\index{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}!set\-Sprite\-Shader@{set\-Sprite\-Shader}}
+\index{set\-Sprite\-Shader@{set\-Sprite\-Shader}!GAF::GAFMarmaladeGFX@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}}
+\subsubsection[{set\-Sprite\-Shader}]{\setlength{\rightskip}{0pt plus 5cm}static void G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X\-::set\-Sprite\-Shader (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{sprite, }
+\item[{void $\ast$}]{shader}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a64d246d6346ac1bd7de834894e92ba5a}
+
+\begin{DoxyParams}{Parameters}
+{\em sprite} & -\/ created by \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a532e1b916a435589f352be1d0fd64be1}{G\-A\-F\-Marmalade\-G\-F\-X\-::create\-Sprite} \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_accfa7a7c4665d5613a5c185603c2ae47}{\index{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}!set\-Sprite\-Transform@{set\-Sprite\-Transform}}
+\index{set\-Sprite\-Transform@{set\-Sprite\-Transform}!GAF::GAFMarmaladeGFX@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}}
+\subsubsection[{set\-Sprite\-Transform}]{\setlength{\rightskip}{0pt plus 5cm}static void G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X\-::set\-Sprite\-Transform (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{sprite, }
+\item[{const {\bf C\-C\-Affine\-Transform} \&}]{transform}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_accfa7a7c4665d5613a5c185603c2ae47}
+Your backend must support affine transformations for sprites 
+\begin{DoxyParams}{Parameters}
+{\em sprite} & -\/ creatd by \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a532e1b916a435589f352be1d0fd64be1}{G\-A\-F\-Marmalade\-G\-F\-X\-::create\-Sprite} \\
+\hline
+{\em transform} & -\/ transformation \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_ad959554fc1cb14e8cf36efe269669d1f}{\index{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}!set\-Sprite\-Visible@{set\-Sprite\-Visible}}
+\index{set\-Sprite\-Visible@{set\-Sprite\-Visible}!GAF::GAFMarmaladeGFX@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}}
+\subsubsection[{set\-Sprite\-Visible}]{\setlength{\rightskip}{0pt plus 5cm}static void G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X\-::set\-Sprite\-Visible (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{sprite, }
+\item[{bool}]{visible}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_ad959554fc1cb14e8cf36efe269669d1f}
+
+\begin{DoxyParams}{Parameters}
+{\em sprite} & -\/ created by \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a532e1b916a435589f352be1d0fd64be1}{G\-A\-F\-Marmalade\-G\-F\-X\-::create\-Sprite} \\
+\hline
+{\em visible} & -\/ sprite visibility \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_aa1ee9a51e41aef8ef9ad197d80e51bfd}{\index{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}!set\-Sprite\-Zorder@{set\-Sprite\-Zorder}}
+\index{set\-Sprite\-Zorder@{set\-Sprite\-Zorder}!GAF::GAFMarmaladeGFX@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}}
+\subsubsection[{set\-Sprite\-Zorder}]{\setlength{\rightskip}{0pt plus 5cm}static void G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X\-::set\-Sprite\-Zorder (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{sprite, }
+\item[{int}]{z\-Order}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_aa1ee9a51e41aef8ef9ad197d80e51bfd}
+
+\begin{DoxyParams}{Parameters}
+{\em sprite} & -\/ created by \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a532e1b916a435589f352be1d0fd64be1}{G\-A\-F\-Marmalade\-G\-F\-X\-::create\-Sprite} \\
+\hline
+{\em z\-Order} & -\/ z order \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a2f34d292870b7b7878665489873d5aaa}{\index{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}!sprite\-Container\-Add\-Sprite@{sprite\-Container\-Add\-Sprite}}
+\index{sprite\-Container\-Add\-Sprite@{sprite\-Container\-Add\-Sprite}!GAF::GAFMarmaladeGFX@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}}
+\subsubsection[{sprite\-Container\-Add\-Sprite}]{\setlength{\rightskip}{0pt plus 5cm}static void G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X\-::sprite\-Container\-Add\-Sprite (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{sprite\-Container, }
+\item[{void $\ast$}]{sprite}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a2f34d292870b7b7878665489873d5aaa}
+adds sprite to sprite container 
+\begin{DoxyParams}{Parameters}
+{\em sprite\-Container} & -\/ created by \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a51f213df0e537a5994f89f66f93d8cbc}{G\-A\-F\-Marmalade\-G\-F\-X\-::create\-Sprite\-Container} \\
+\hline
+{\em sprite} & -\/ created by \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a532e1b916a435589f352be1d0fd64be1}{G\-A\-F\-Marmalade\-G\-F\-X\-::create\-Sprite} \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a9834611e200459c3d0029caf080efd33}{\index{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}!sprite\-Container\-Remove\-Sprite@{sprite\-Container\-Remove\-Sprite}}
+\index{sprite\-Container\-Remove\-Sprite@{sprite\-Container\-Remove\-Sprite}!GAF::GAFMarmaladeGFX@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}}
+\subsubsection[{sprite\-Container\-Remove\-Sprite}]{\setlength{\rightskip}{0pt plus 5cm}static void G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X\-::sprite\-Container\-Remove\-Sprite (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{sprite\-Container, }
+\item[{void $\ast$}]{sprite, }
+\item[{bool}]{cleanup}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a9834611e200459c3d0029caf080efd33}
+removes sprite to sprite container 
+\begin{DoxyParams}{Parameters}
+{\em sprite\-Container} & -\/ created by \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a51f213df0e537a5994f89f66f93d8cbc}{G\-A\-F\-Marmalade\-G\-F\-X\-::create\-Sprite\-Container} \\
+\hline
+{\em sprite} & -\/ created by create\-Sprite \\
+\hline
+{\em cleanup} & -\/ cleanup sprite resources or not \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a549dc4e4ea1b208815a4efbb8fb3573d}{\index{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}!stencil\-Sprite\-Add\-Masked\-Object@{stencil\-Sprite\-Add\-Masked\-Object}}
+\index{stencil\-Sprite\-Add\-Masked\-Object@{stencil\-Sprite\-Add\-Masked\-Object}!GAF::GAFMarmaladeGFX@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}}
+\subsubsection[{stencil\-Sprite\-Add\-Masked\-Object}]{\setlength{\rightskip}{0pt plus 5cm}static void G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X\-::stencil\-Sprite\-Add\-Masked\-Object (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{stencil\-Sprite, }
+\item[{void $\ast$}]{masked\-Object}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a549dc4e4ea1b208815a4efbb8fb3573d}
+Adds masked object to stencil sprite 
+\begin{DoxyParams}{Parameters}
+{\em stencil\-Sprite} & -\/ created by G\-A\-F\-Marmalade\-G\-F\-X\-::stencil\-Sprite \\
+\hline
+{\em masked\-Object} & -\/ cretaed by \hyperlink{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_a532e1b916a435589f352be1d0fd64be1}{G\-A\-F\-Marmalade\-G\-F\-X\-::create\-Sprite} \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_abc8a09dd883016053e10b31b6cdc4f5d}{\index{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}!stencil\-Sprite\-Update\-Mask\-Container\-Of@{stencil\-Sprite\-Update\-Mask\-Container\-Of}}
+\index{stencil\-Sprite\-Update\-Mask\-Container\-Of@{stencil\-Sprite\-Update\-Mask\-Container\-Of}!GAF::GAFMarmaladeGFX@{G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X}}
+\subsubsection[{stencil\-Sprite\-Update\-Mask\-Container\-Of}]{\setlength{\rightskip}{0pt plus 5cm}static void G\-A\-F\-::\-G\-A\-F\-Marmalade\-G\-F\-X\-::stencil\-Sprite\-Update\-Mask\-Container\-Of (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{stencil\-Sprite}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_g_a_f_1_1_g_a_f_marmalade_g_f_x_abc8a09dd883016053e10b31b6cdc4f5d}
+Used to maintain correct Z order of masked object. Your implementation should ensure that masked objects order is valid. 
+\begin{DoxyParams}{Parameters}
+{\em stencil\-Sprite} & -\/ created by G\-A\-F\-Marmalade\-G\-F\-X\-::stencil\-Sprite \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+G\-A\-F\-Marmalade.\-h\end{DoxyCompactItemize}

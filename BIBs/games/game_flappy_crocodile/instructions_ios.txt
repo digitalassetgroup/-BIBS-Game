@@ -1,0 +1,12 @@
+XCode project is located in folder games/game_flappy_crocodile/proj.ios
+Artwork is located in games/game_flappy_crocodile/Resources
+Splash screens and application icons are located in games/game_flappy_crocodile/proj.ios
+
+In order to setup ad networks codes you should edit only one file - SKGameMetadata.h
+File is located in games/game_flappy_crocodile/Classes.
+
+You should setup the following codes (you will find samples in SKGameMetadata.h file):
+
+APP_STORE_URL - your app url, used for RateMe button.
+FLURRY_APP_KEY - your Flurry api key, for in-game analytics.
+ADMOB_MEDIATION_ID - Admob mediation id. You must enable mediation from your Admob account, and ad iAd network from Admob website to show iAd ads in your game.

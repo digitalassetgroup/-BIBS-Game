@@ -1,0 +1,616 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="platform.winmd">
+      <IsWinMDFile>true</IsWinMDFile>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Windows">
+      <IsWinMDFile>true</IsWinMDFile>
+    </Reference>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{79fc91d4-974c-4bc7-8e8c-79e194437de7}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectName>libCommonClasses</ProjectName>
+    <RootNamespace>CommonClasses</RootNamespace>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+    <AppContainerApplication>true</AppContainerApplication>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110_wp80</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110_wp80</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110_wp80</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110_wp80</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <GenerateManifest>false</GenerateManifest>
+    <OutDir>$(SolutionDir)WP8\$(Platform)\$(Configuration)\$(MSBuildProjectName)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <GenerateManifest>false</GenerateManifest>
+    <OutDir>$(SolutionDir)WP8\$(Platform)\$(Configuration)\$(MSBuildProjectName)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <GenerateManifest>false</GenerateManifest>
+    <OutDir>$(SolutionDir)WP8\$(Platform)\$(Configuration)\$(MSBuildProjectName)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <GenerateManifest>false</GenerateManifest>
+    <OutDir>$(SolutionDir)WP8\$(Platform)\$(Configuration)\$(MSBuildProjectName)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <GenerateManifest>false</GenerateManifest>
+    <OutDir>$(SolutionDir)WP8\$(Platform)\$(Configuration)\$(MSBuildProjectName)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <GenerateManifest>false</GenerateManifest>
+    <OutDir>$(SolutionDir)WP8\$(Platform)\$(Configuration)\$(MSBuildProjectName)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <SDLCheck>true</SDLCheck>
+      <PrecompiledHeaderFile />
+      <PrecompiledHeaderOutputFile />
+      <AdditionalIncludeDirectories>../../;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+    <Lib>
+      <LinkTimeCodeGeneration>true</LinkTimeCodeGeneration>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <SDLCheck>true</SDLCheck>
+      <PrecompiledHeaderFile />
+      <PrecompiledHeaderOutputFile />
+      <AdditionalIncludeDirectories>../../;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <CompileAsWinRT>true</CompileAsWinRT>
+      <SDLCheck>true</SDLCheck>
+      <PrecompiledHeaderFile />
+      <PrecompiledHeaderOutputFile />
+      <AdditionalIncludeDirectories>$(SolutionDir)..\..\..\cocos2dx\kazmath\include;$(SolutionDir)..\..\..\cocos2dx\platform\third_party\winrt\angleproject\include;$(SolutionDir)..\..\..\cocos2dx\platform\third_party\winrt\angleproject\samples\gles2_book\Common;$(SolutionDir)..\..\..\cocos2dx;$(SolutionDir)..\..\..\cocos2dx\platform;$(SolutionDir)..\..\..\cocos2dx\platform\wp8;$(SolutionDir)..\..\..\cocos2dx\platform\winrt;$(SolutionDir)..\..\..\cocos2dx\include;$(ProjectDir)..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PreprocessorDefinitions>_LIB;WP8;_WP8;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalUsingDirectories>$(WindowsSDK_MetadataPath);$(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+      <DisableSpecificWarnings>4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+    <Lib>
+      <LinkTimeCodeGeneration>true</LinkTimeCodeGeneration>
+      <AdditionalOptions>/IGNORE:4264 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|arm'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <CompileAsWinRT>true</CompileAsWinRT>
+      <SDLCheck>true</SDLCheck>
+      <PrecompiledHeaderFile />
+      <PrecompiledHeaderOutputFile />
+      <AdditionalIncludeDirectories>$(SolutionDir)..\..\..\cocos2dx\kazmath\include;$(SolutionDir)..\..\..\cocos2dx\platform\third_party\winrt\angleproject\include;$(SolutionDir)..\..\..\cocos2dx\platform\third_party\winrt\angleproject\samples\gles2_book\Common;$(SolutionDir)..\..\..\cocos2dx;$(SolutionDir)..\..\..\cocos2dx\platform;$(SolutionDir)..\..\..\cocos2dx\platform\wp8;$(SolutionDir)..\..\..\cocos2dx\platform\winrt;$(SolutionDir)..\..\..\cocos2dx\include;$(ProjectDir)..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalUsingDirectories>$(WindowsSDK_MetadataPath);$(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+      <PreprocessorDefinitions>_LIB;WP8;_WP8;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+    <Lib>
+      <AdditionalOptions>/IGNORE:4264 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <SDLCheck>true</SDLCheck>
+      <PrecompiledHeaderFile />
+      <PrecompiledHeaderOutputFile />
+      <AdditionalIncludeDirectories>../../;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+    <Lib>
+      <LinkTimeCodeGeneration>true</LinkTimeCodeGeneration>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <SDLCheck>true</SDLCheck>
+      <PrecompiledHeaderFile />
+      <PrecompiledHeaderOutputFile />
+      <AdditionalIncludeDirectories>../../;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\CoreDragon\UI\CCInAppPurchase.h" />
+    <ClInclude Include="..\..\CoreDragon\UI\CCMessageBoxYesNo.h" />
+    <ClInclude Include="..\..\Core\CCScopedObject.h" />
+    <ClInclude Include="..\..\Core\CollectionHelper.h" />
+    <ClInclude Include="..\..\Core\CommonMacros.h" />
+    <ClInclude Include="..\..\Core\CoreAll.h" />
+    <ClInclude Include="..\..\Core\CoroutineGenerator.h" />
+    <ClInclude Include="..\..\Core\EncodingHelper.h" />
+    <ClInclude Include="..\..\Core\ForEachEnumGenerator.h" />
+    <ClInclude Include="..\..\Core\IdentityObject.h" />
+    <ClInclude Include="..\..\Core\IntPoint.h" />
+    <ClInclude Include="..\..\Core\MathHelper.h" />
+    <ClInclude Include="..\..\Core\MemoryManagement.h" />
+    <ClInclude Include="..\..\Core\NonCopyable.h" />
+    <ClInclude Include="..\..\Core\Nullable.h" />
+    <ClInclude Include="..\..\Core\ObjectPool.h" />
+    <ClInclude Include="..\..\Core\ObserverEvent.h" />
+    <ClInclude Include="..\..\Core\PropertyDefiner.h" />
+    <ClInclude Include="..\..\Core\QArray.h" />
+    <ClInclude Include="..\..\Core\QFunction.h" />
+    <ClInclude Include="..\..\Core\QPointer.h" />
+    <ClInclude Include="..\..\Core\QScopedPointer.h" />
+    <ClInclude Include="..\..\Core\QTypeTraits.h" />
+    <ClInclude Include="..\..\Core\RandomHelper.h" />
+    <ClInclude Include="..\..\Core\RemoteFunctionCaller.h" />
+    <ClInclude Include="..\..\Core\shared_ptr.h" />
+    <ClInclude Include="..\..\Core\StringHelper.h" />
+    <ClInclude Include="..\..\Core\closure\closure.h" />
+    <ClInclude Include="..\..\Core\closure\closure_impl.h" />
+    <ClInclude Include="..\..\CoreDragon\GlobalUpdater.h" />
+    <ClInclude Include="..\..\CoreDragon\LuaPlusHelper.h" />
+    <ClInclude Include="..\..\CoreDragon\LuaStateContext.h" />
+    <ClInclude Include="..\..\CoreDragon\TouchableLayerBase.h" />
+    <ClInclude Include="..\..\CoreDragon\NodeEffects\CCAnimateWithCallback.h" />
+    <ClInclude Include="..\..\CoreDragon\NodeEffects\CCCallLambda.h" />
+    <ClInclude Include="..\..\CoreDragon\NodeEffects\CCOpacityTo.h" />
+    <ClInclude Include="..\..\CoreDragon\NodeEffects\MoveToWithEasing.h" />
+    <ClInclude Include="..\..\CoreDragon\NodeEffects\NodeEffectButtonScaleQuarter.h" />
+    <ClInclude Include="..\..\CoreDragon\NodeEffects\NodeEffectCirclePosition.h" />
+    <ClInclude Include="..\..\CoreDragon\NodeEffects\NodeEffectCustomValue.h" />
+    <ClInclude Include="..\..\CoreDragon\NodeEffects\NodeEffectGrouping.h" />
+    <ClInclude Include="..\..\CoreDragon\NodeEffects\NodeEffectQuarterRotating.h" />
+    <ClInclude Include="..\..\CoreDragon\NodeEffects\NodeEffectRotatingWithAngles.h" />
+    <ClInclude Include="..\..\CoreDragon\NodeEffects\NodeEffectWithEasingBase.h" />
+    <ClInclude Include="..\..\CoreDragon\UI\CCLabelHelper.h" />
+    <ClInclude Include="..\..\CoreDragon\UI\SaveLoadLevelUI.h" />
+    <ClInclude Include="..\..\CoreDragon\UI\UIDebugAlert.h" />
+    <ClInclude Include="..\..\CorePlatform\CCAdvancedSprite.h" />
+    <ClInclude Include="..\..\CorePlatform\CCPointMath.h" />
+    <ClInclude Include="..\..\CorePlatform\CommonProperties.h" />
+    <ClInclude Include="..\..\CorePlatform\CorePlatformAll.h" />
+    <ClInclude Include="..\..\CorePlatform\CoroutineSecondsGenerator.h" />
+    <ClInclude Include="..\..\CorePlatform\DesktopScreenLister.h" />
+    <ClInclude Include="..\..\CorePlatform\DigitDrawer.h" />
+    <ClInclude Include="..\..\CorePlatform\FileHelper.h" />
+    <ClInclude Include="..\..\CorePlatform\FixedUpdater.h" />
+    <ClInclude Include="..\..\CorePlatform\GeometryHelper.h" />
+    <ClInclude Include="..\..\CorePlatform\InputHelper.h" />
+    <ClInclude Include="..\..\CorePlatform\IScenesHideOutShowIn.h" />
+    <ClInclude Include="..\..\CorePlatform\LogHelper.h" />
+    <ClInclude Include="..\..\CorePlatform\LogObserver.h" />
+    <ClInclude Include="..\..\CorePlatform\MemoryUsageHelper.h" />
+    <ClInclude Include="..\..\CorePlatform\NodeHelper.h" />
+    <ClInclude Include="..\..\CorePlatform\NodeScheduleLambda.h" />
+    <ClInclude Include="..\..\CorePlatform\SceneBase.h" />
+    <ClInclude Include="..\..\CorePlatform\SceneManagerBase.h" />
+    <ClInclude Include="..\..\CorePlatform\ScreenBlurrer.h" />
+    <ClInclude Include="..\..\CorePlatform\ScreenLogLayer.h" />
+    <ClInclude Include="..\..\CorePlatform\ScreenLogListener.h" />
+    <ClInclude Include="..\..\CorePlatform\ScreenViewHelper.h" />
+    <ClInclude Include="..\..\CorePlatform\SecurityHelper.h" />
+    <ClInclude Include="..\..\CorePlatform\SpriteHelper.h" />
+    <ClInclude Include="..\..\CorePlatform\StackWalker.h" />
+    <ClInclude Include="..\..\CorePlatform\StringDrawer.h" />
+    <ClInclude Include="..\..\CorePlatform\TextureManagerBase.h" />
+    <ClInclude Include="..\..\CorePlatform\TotalTimeCounter.h" />
+    <ClInclude Include="..\..\CorePlatform\mac\DDHotKeyCenter.h" />
+    <ClInclude Include="..\..\CorePlatform\mac\MacScreenViewHelper.h" />
+    <ClInclude Include="..\..\CorePlatform\windows\dirent.h" />
+    <ClInclude Include="..\..\Dragon\effects\effect_manager.h" />
+    <ClInclude Include="..\..\Dragon\effects\node_effect_button_scale.h" />
+    <ClInclude Include="..\..\Dragon\effects\node_effect_button_slide_in.h" />
+    <ClInclude Include="..\..\Dragon\effects\node_effect_move_to.h" />
+    <ClInclude Include="..\..\Dragon\effects\node_effect_sine_wave_motion.h" />
+    <ClInclude Include="..\..\Dragon\helper_objects\cannon_arc_helper_node.h" />
+    <ClInclude Include="..\..\Dragon\scenes\scene_assert.h" />
+    <ClInclude Include="..\..\Dragon\scenes\scene_base.h" />
+    <ClInclude Include="..\..\Dragon\scenes\scene_manager.h" />
+    <ClInclude Include="..\..\Dragon\ui\ig_interface.h" />
+    <ClInclude Include="..\..\Dragon\ui\i_btn_delegate.h" />
+    <ClInclude Include="..\..\Dragon\ui\ui_button.h" />
+    <ClInclude Include="..\..\Dragon\ui\ui_counting_label.h" />
+    <ClInclude Include="..\..\Dragon\ui\ui_fullscreen_quad.h" />
+    <ClInclude Include="..\..\Dragon\ui\ui_label.h" />
+    <ClInclude Include="..\..\Dragon\ui\ui_popup_box.h" />
+    <ClInclude Include="..\..\Dragon\ui\ui_scrolling_backdrop.h" />
+    <ClInclude Include="..\..\Dragon\ui\ui_scrolling_list.h" />
+    <ClInclude Include="..\..\Dragon\ui\ui_scrolling_sprite_field.h" />
+    <ClInclude Include="..\..\Dragon\ui\ui_toggle_button.h" />
+    <ClInclude Include="..\..\Dragon\utilities\DragonVec2.h" />
+    <ClInclude Include="..\..\Dragon\utilities\ig_assert.h" />
+    <ClInclude Include="..\..\Dragon\utilities\ig_constants.h" />
+    <ClInclude Include="..\..\Dragon\utilities\ig_defines.h" />
+    <ClInclude Include="..\..\Dragon\utilities\ig_easing_curves.h" />
+    <ClInclude Include="..\..\Dragon\utilities\ig_one_time_const.h" />
+    <ClInclude Include="..\..\Dragon\utilities\ig_touchEvent.h" />
+    <ClInclude Include="..\..\Dragon\utilities\ig_utilities.h" />
+    <ClInclude Include="..\..\Dragon\utilities\sharing_service.h" />
+    <ClInclude Include="..\..\lib\Boolinq\boolinq-all.h" />
+    <ClInclude Include="..\..\lib\LuaPlus\LuaAutoBlock.h" />
+    <ClInclude Include="..\..\lib\LuaPlus\LuaCall.h" />
+    <ClInclude Include="..\..\lib\LuaPlus\LuaFunction.h" />
+    <ClInclude Include="..\..\lib\LuaPlus\LuaHelper.h" />
+    <ClInclude Include="..\..\lib\LuaPlus\LuaHelper_Object.h" />
+    <ClInclude Include="..\..\lib\LuaPlus\LuaHelper_StackObject.h" />
+    <ClInclude Include="..\..\lib\LuaPlus\LuaLink.h" />
+    <ClInclude Include="..\..\lib\LuaPlus\LuaObject.h" />
+    <ClInclude Include="..\..\lib\LuaPlus\LuaPlus.h" />
+    <ClInclude Include="..\..\lib\LuaPlus\LuaPlusCD.h" />
+    <ClInclude Include="..\..\lib\LuaPlus\LuaPlusInternal.h" />
+    <ClInclude Include="..\..\lib\LuaPlus\LuaStackObject.h" />
+    <ClInclude Include="..\..\lib\LuaPlus\LuaStackTableIterator.h" />
+    <ClInclude Include="..\..\lib\LuaPlus\LuaState.h" />
+    <ClInclude Include="..\..\lib\LuaPlus\LuaStateCD.h" />
+    <ClInclude Include="..\..\lib\LuaPlus\LuaStateOutFile.h" />
+    <ClInclude Include="..\..\lib\LuaPlus\LuaTableIterator.h" />
+    <ClInclude Include="..\..\lib\LuaPlus\src\lapi.h" />
+    <ClInclude Include="..\..\lib\LuaPlus\src\lauxlib.h" />
+    <ClInclude Include="..\..\lib\LuaPlus\src\lcode.h" />
+    <ClInclude Include="..\..\lib\LuaPlus\src\ldebug.h" />
+    <ClInclude Include="..\..\lib\LuaPlus\src\ldo.h" />
+    <ClInclude Include="..\..\lib\LuaPlus\src\lfunc.h" />
+    <ClInclude Include="..\..\lib\LuaPlus\src\lgc.h" />
+    <ClInclude Include="..\..\lib\LuaPlus\src\llex.h" />
+    <ClInclude Include="..\..\lib\LuaPlus\src\llimits.h" />
+    <ClInclude Include="..\..\lib\LuaPlus\src\lmem.h" />
+    <ClInclude Include="..\..\lib\LuaPlus\src\lobject.h" />
+    <ClInclude Include="..\..\lib\LuaPlus\src\lopcodes.h" />
+    <ClInclude Include="..\..\lib\LuaPlus\src\lparser.h" />
+    <ClInclude Include="..\..\lib\LuaPlus\src\lstate.h" />
+    <ClInclude Include="..\..\lib\LuaPlus\src\lstring.h" />
+    <ClInclude Include="..\..\lib\LuaPlus\src\ltable.h" />
+    <ClInclude Include="..\..\lib\LuaPlus\src\ltm.h" />
+    <ClInclude Include="..\..\lib\LuaPlus\src\lua.h" />
+    <ClInclude Include="..\..\lib\LuaPlus\src\luaconf.h" />
+    <ClInclude Include="..\..\lib\LuaPlus\src\lualib.h" />
+    <ClInclude Include="..\..\lib\LuaPlus\src\lundump.h" />
+    <ClInclude Include="..\..\lib\LuaPlus\src\lvm.h" />
+    <ClInclude Include="..\..\lib\LuaPlus\src\lzio.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\CoreDragon\UI\CCInAppPurchase.cpp" />
+    <ClCompile Include="..\..\CoreDragon\UI\CCMessageBoxYesNo.cpp" />
+    <ClCompile Include="..\..\Core\EncodingHelper.cpp" />
+    <ClCompile Include="..\..\Core\IdentityObject.cpp" />
+    <ClCompile Include="..\..\Core\MathHelper.cpp" />
+    <ClCompile Include="..\..\Core\ObserverEvent.cpp" />
+    <ClCompile Include="..\..\Core\StringHelper.cpp" />
+    <ClCompile Include="..\..\CoreDragon\GlobalUpdater.cpp" />
+    <ClCompile Include="..\..\CoreDragon\LuaPlusHelper.cpp" />
+    <ClCompile Include="..\..\CoreDragon\LuaStateContext.cpp" />
+    <ClCompile Include="..\..\CoreDragon\TouchableLayerBase.cpp" />
+    <ClCompile Include="..\..\CoreDragon\NodeEffects\CCAnimateWithCallback.cpp" />
+    <ClCompile Include="..\..\CoreDragon\NodeEffects\CCCallLambda.cpp" />
+    <ClCompile Include="..\..\CoreDragon\NodeEffects\CCOpacityTo.cpp" />
+    <ClCompile Include="..\..\CoreDragon\NodeEffects\MoveToWithEasing.cpp" />
+    <ClCompile Include="..\..\CoreDragon\NodeEffects\NodeEffectButtonScaleQuarter.cpp" />
+    <ClCompile Include="..\..\CoreDragon\NodeEffects\NodeEffectCirclePosition.cpp" />
+    <ClCompile Include="..\..\CoreDragon\NodeEffects\NodeEffectGrouping.cpp" />
+    <ClCompile Include="..\..\CoreDragon\NodeEffects\NodeEffectQuarterRotating.cpp" />
+    <ClCompile Include="..\..\CoreDragon\NodeEffects\NodeEffectRotatingWithAngles.cpp" />
+    <ClCompile Include="..\..\CoreDragon\NodeEffects\NodeEffectWithEasingBase.cpp" />
+    <ClCompile Include="..\..\CoreDragon\UI\CCLabelHelper.cpp" />
+    <ClCompile Include="..\..\CoreDragon\UI\SaveLoadLevelUI.cpp" />
+    <ClCompile Include="..\..\CoreDragon\UI\UIDebugAlert.cpp" />
+    <ClCompile Include="..\..\CorePlatform\CCAdvancedSprite.cpp" />
+    <ClCompile Include="..\..\CorePlatform\CommonProperties.cpp" />
+    <ClCompile Include="..\..\CorePlatform\CorePlatformAll.cpp" />
+    <ClCompile Include="..\..\CorePlatform\FileHelper.cpp" />
+    <ClCompile Include="..\..\CorePlatform\FixedUpdater.cpp" />
+    <ClCompile Include="..\..\CorePlatform\GeometryHelper.cpp" />
+    <ClCompile Include="..\..\CorePlatform\InputHelper.cpp" />
+    <ClCompile Include="..\..\CorePlatform\LogHelper.cpp" />
+    <ClCompile Include="..\..\CorePlatform\MemoryUsageHelper.cpp" />
+    <ClCompile Include="..\..\CorePlatform\NodeHelper.cpp" />
+    <ClCompile Include="..\..\CorePlatform\SceneBase.cpp" />
+    <ClCompile Include="..\..\CorePlatform\SceneManagerBase.cpp" />
+    <ClCompile Include="..\..\CorePlatform\ScreenBlurrer.cpp" />
+    <ClCompile Include="..\..\CorePlatform\ScreenLogLayer.cpp" />
+    <ClCompile Include="..\..\CorePlatform\ScreenLogListener.cpp" />
+    <ClCompile Include="..\..\CorePlatform\ScreenViewHelper.cpp" />
+    <ClCompile Include="..\..\CorePlatform\SecurityHelper.cpp" />
+    <ClCompile Include="..\..\CorePlatform\SpriteHelper.cpp" />
+    <ClCompile Include="..\..\CorePlatform\TextureManagerBase.cpp" />
+    <ClCompile Include="..\..\CorePlatform\TotalTimeCounter.cpp" />
+    <ClCompile Include="..\..\Dragon\effects\effect_manager.cpp" />
+    <ClCompile Include="..\..\Dragon\effects\node_effect_button_scale.cpp" />
+    <ClCompile Include="..\..\Dragon\effects\node_effect_button_slide_in.cpp" />
+    <ClCompile Include="..\..\Dragon\effects\node_effect_move_to.cpp" />
+    <ClCompile Include="..\..\Dragon\effects\node_effect_sine_wave_motion.cpp" />
+    <ClCompile Include="..\..\Dragon\helper_objects\cannon_arc_helper_node.cpp" />
+    <ClCompile Include="..\..\Dragon\scenes\scene_assert.cpp" />
+    <ClCompile Include="..\..\Dragon\scenes\scene_base.cpp" />
+    <ClCompile Include="..\..\Dragon\scenes\scene_manager.cpp" />
+    <ClCompile Include="..\..\Dragon\ui\ig_interface.cpp" />
+    <ClCompile Include="..\..\Dragon\ui\ui_button.cpp" />
+    <ClCompile Include="..\..\Dragon\ui\ui_counting_label.cpp" />
+    <ClCompile Include="..\..\Dragon\ui\ui_fullscreen_quad.cpp" />
+    <ClCompile Include="..\..\Dragon\ui\ui_label.cpp" />
+    <ClCompile Include="..\..\Dragon\ui\ui_popup_box.cpp" />
+    <ClCompile Include="..\..\Dragon\ui\ui_scrolling_backdrop.cpp" />
+    <ClCompile Include="..\..\Dragon\ui\ui_scrolling_list.cpp" />
+    <ClCompile Include="..\..\Dragon\ui\ui_scrolling_sprite_field.cpp" />
+    <ClCompile Include="..\..\Dragon\ui\ui_toggle_button.cpp" />
+    <ClCompile Include="..\..\Dragon\utilities\ig_easing_curves.cpp" />
+    <ClCompile Include="..\..\Dragon\utilities\ig_utilities.cpp" />
+    <ClCompile Include="..\..\Dragon\utilities\sharing_service.cpp" />
+    <ClCompile Include="..\..\lib\LuaPlus\LuaObject.cpp" />
+    <ClCompile Include="..\..\lib\LuaPlus\LuaPlus.cpp" />
+    <ClCompile Include="..\..\lib\LuaPlus\LuaPlus_Libs.cpp" />
+    <ClCompile Include="..\..\lib\LuaPlus\LuaState.cpp" />
+    <ClCompile Include="..\..\lib\LuaPlus\LuaStateOutFile.cpp" />
+    <ClCompile Include="..\..\lib\LuaPlus\LuaState_DumpObject.cpp" />
+    <ClCompile Include="..\..\lib\LuaPlus\LuaTableIterator.cpp" />
+    <ClCompile Include="..\..\lib\LuaPlus\LuaPlusAddons.c">
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\lwstrlib.c">
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\popen.c">
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\lapi.c">
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\lauxlib.c">
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\lbaselib.c">
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\lcode.c">
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\ldblib.c">
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\ldebug.c">
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\ldo.c">
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\ldump.c">
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\lfunc.c">
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\lgc.c">
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\linit.c">
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\liolib.c">
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\llex.c">
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\lmathlib.c">
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\lmem.c">
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\loadlib.c">
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\lobject.c">
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\lopcodes.c">
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\loslib.c">
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\lparser.c">
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\lstate.c">
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\lstring.c">
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\lstrlib.c">
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\ltable.c">
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\ltablib.c">
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\ltm.c">
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\lundump.c">
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\lvm.c">
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\lzio.c">
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\LuaPlus\src\print.c">
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</CompileAsWinRT>
+    </ClCompile>
+  </ItemGroup>
+</Project>

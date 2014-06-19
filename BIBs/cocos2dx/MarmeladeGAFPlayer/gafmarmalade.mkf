@@ -1,0 +1,30 @@
+includepaths
+{
+	"./Library/Sources"
+	"./Library/Sources/cJSON"
+	"./Library/Sources/cocoagaf"
+	"./Library/Sources/gfxcocos2dx"
+}
+
+files
+{
+	("./Library/Sources")
+	[Sources]
+	"*.h"
+	"*.cpp"
+
+	("./Library/Sources/cJSON")
+	[Sources]
+	"*.h"
+	"*.cpp"
+
+	("./Library/Sources/cocoagaf")
+	[Sources]
+	"*.h"
+	"*.cpp"
+
+	("./Library/Sources/gfxcocos2dx")
+	[Sources]
+	"*.cpp"
+}
+

@@ -1,0 +1,71 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//  GAFAnimationSequence.m
+//  GAF Animation Library
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Imports
+
+#import "GAFAnimationSequence.h"
+#import "ccMacros.h"
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Constants
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Private interface
+
+@interface GAFAnimationSequence ()
+
+@property (nonatomic, copy  ) NSString *name;
+@property (nonatomic, assign) NSRange framesRange;
+
+@end
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Implementation
+
+@implementation GAFAnimationSequence
+
+#pragma mark -
+#pragma mark Properties
+
+#pragma mark -
+#pragma mark Initialization & Release
+
+- (id)initWithName:(NSString *)aName framesRange:(NSRange)aFramesRange
+{
+    if(aName == nil)
+    {
+        CCLOGWARN(@"ERROR: initializing GAFAnimationSequence.  aName not present");
+        [self ah_release];
+        return nil;
+    }
+    
+    self = [super init];
+    if (nil != self)
+    {
+        self.name = aName;
+        self.framesRange = aFramesRange;
+    }
+    return self;
+}
+
+- (void)dealloc
+{
+    [_name ah_release];
+
+#if !__has_feature(objc_arc)
+    [super dealloc];
+#endif
+}
+
+#pragma mark -
+#pragma mark Public methods
+
+#pragma mark -
+#pragma mark Private methods
+
+@end
