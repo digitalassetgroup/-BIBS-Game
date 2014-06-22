@@ -322,7 +322,6 @@
 		25082BE916FA634400D7D2BA /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6D416F5F3C90054E612 /* CoreVideo.framework */; };
 		25082BEA16FA634400D7D2BA /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6D216F5F3C10054E612 /* EventKit.framework */; };
 		25082BEB16FA634400D7D2BA /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6D016F5F3AF0054E612 /* CoreTelephony.framework */; };
-		25082BEC16FA634400D7D2BA /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6CE16F5F3A40054E612 /* PassKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		25082BED16FA634400D7D2BA /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6CC16F5F3990054E612 /* MediaPlayer.framework */; };
 		25082BEE16FA634400D7D2BA /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6CA16F5F3850054E612 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		25082BEF16FA634400D7D2BA /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6C816F5F37D0054E612 /* StoreKit.framework */; };
@@ -562,7 +561,6 @@
 		2531546C173E6AB100452B4F /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6D416F5F3C90054E612 /* CoreVideo.framework */; };
 		2531546D173E6AB100452B4F /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6D216F5F3C10054E612 /* EventKit.framework */; };
 		2531546E173E6AB100452B4F /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6D016F5F3AF0054E612 /* CoreTelephony.framework */; };
-		2531546F173E6AB100452B4F /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6CE16F5F3A40054E612 /* PassKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		25315470173E6AB100452B4F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6CC16F5F3990054E612 /* MediaPlayer.framework */; };
 		25315471173E6AB100452B4F /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6CA16F5F3850054E612 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		25315472173E6AB100452B4F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6C816F5F37D0054E612 /* StoreKit.framework */; };
@@ -790,7 +788,6 @@
 		25315592173E6ADA00452B4F /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6D416F5F3C90054E612 /* CoreVideo.framework */; };
 		25315593173E6ADA00452B4F /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6D216F5F3C10054E612 /* EventKit.framework */; };
 		25315594173E6ADA00452B4F /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6D016F5F3AF0054E612 /* CoreTelephony.framework */; };
-		25315595173E6ADA00452B4F /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6CE16F5F3A40054E612 /* PassKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		25315596173E6ADA00452B4F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6CC16F5F3990054E612 /* MediaPlayer.framework */; };
 		25315597173E6ADA00452B4F /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6CA16F5F3850054E612 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		25315598173E6ADA00452B4F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6C816F5F37D0054E612 /* StoreKit.framework */; };
@@ -888,7 +885,6 @@
 		25ABE6C916F5F37D0054E612 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6C816F5F37D0054E612 /* StoreKit.framework */; };
 		25ABE6CB16F5F3850054E612 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6CA16F5F3850054E612 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		25ABE6CD16F5F3990054E612 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6CC16F5F3990054E612 /* MediaPlayer.framework */; };
-		25ABE6CF16F5F3A40054E612 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6CE16F5F3A40054E612 /* PassKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		25ABE6D116F5F3AF0054E612 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6D016F5F3AF0054E612 /* CoreTelephony.framework */; };
 		25ABE6D316F5F3C10054E612 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6D216F5F3C10054E612 /* EventKit.framework */; };
 		25ABE6D516F5F3C90054E612 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6D416F5F3C90054E612 /* CoreVideo.framework */; };
@@ -922,6 +918,7 @@
 		25F70B3F16F9E26E00CC3AE6 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F70B3A16F9E26E00CC3AE6 /* SBJsonParser.m */; };
 		25F70B4116F9E26E00CC3AE6 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F70B3C16F9E26E00CC3AE6 /* SBJsonWriter.m */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		3C19DB09195667DF00B21E81 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C19DB08195667DF00B21E81 /* PassKit.framework */; };
 		4D14C3EA18A7A24A000CBE0E /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D14C3E718A7A24A000CBE0E /* Icon-76.png */; };
 		4D14C3EB18A7A24A000CBE0E /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D14C3E718A7A24A000CBE0E /* Icon-76.png */; };
 		4D14C3EC18A7A24A000CBE0E /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D14C3E718A7A24A000CBE0E /* Icon-76.png */; };
@@ -2019,7 +2016,6 @@
 		25ABE6C816F5F37D0054E612 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		25ABE6CA16F5F3850054E612 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		25ABE6CC16F5F3990054E612 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
-		25ABE6CE16F5F3A40054E612 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
 		25ABE6D016F5F3AF0054E612 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		25ABE6D216F5F3C10054E612 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
 		25ABE6D416F5F3C90054E612 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
@@ -2064,6 +2060,7 @@
 		25F70B3B16F9E26E00CC3AE6 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
 		25F70B3C16F9E26E00CC3AE6 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3C19DB08195667DF00B21E81 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
 		4D14C3E718A7A24A000CBE0E /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
 		4D14C3E818A7A24A000CBE0E /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
 		4D14C3E918A7A24A000CBE0E /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-120.png"; sourceTree = "<group>"; };
@@ -2278,6 +2275,7 @@
 			files = (
 				25ABE6EB16F5F4350054E612 /* SystemConfiguration.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				3C19DB09195667DF00B21E81 /* PassKit.framework in Frameworks */,
 				CE48FB8C187D4A2E004D1701 /* AdColony.framework in Frameworks */,
 				251A566016FA065900718225 /* CoreMotion.framework in Frameworks */,
 				2548990F16F8D28900FE5FFF /* libsqlite3.dylib in Frameworks */,
@@ -2299,7 +2297,6 @@
 				25ABE6D316F5F3C10054E612 /* EventKit.framework in Frameworks */,
 				25ABE6D116F5F3AF0054E612 /* CoreTelephony.framework in Frameworks */,
 				4DB6114918A3DB970025B030 /* AdColony.framework in Frameworks */,
-				25ABE6CF16F5F3A40054E612 /* PassKit.framework in Frameworks */,
 				25ABE6CD16F5F3990054E612 /* MediaPlayer.framework in Frameworks */,
 				25ABE6CB16F5F3850054E612 /* AdSupport.framework in Frameworks */,
 				25ABE6C916F5F37D0054E612 /* StoreKit.framework in Frameworks */,
@@ -2345,7 +2342,6 @@
 				25082BE916FA634400D7D2BA /* CoreVideo.framework in Frameworks */,
 				25082BEA16FA634400D7D2BA /* EventKit.framework in Frameworks */,
 				25082BEB16FA634400D7D2BA /* CoreTelephony.framework in Frameworks */,
-				25082BEC16FA634400D7D2BA /* PassKit.framework in Frameworks */,
 				25082BED16FA634400D7D2BA /* MediaPlayer.framework in Frameworks */,
 				25082BEE16FA634400D7D2BA /* AdSupport.framework in Frameworks */,
 				25082BEF16FA634400D7D2BA /* StoreKit.framework in Frameworks */,
@@ -2391,7 +2387,6 @@
 				2531546C173E6AB100452B4F /* CoreVideo.framework in Frameworks */,
 				2531546D173E6AB100452B4F /* EventKit.framework in Frameworks */,
 				2531546E173E6AB100452B4F /* CoreTelephony.framework in Frameworks */,
-				2531546F173E6AB100452B4F /* PassKit.framework in Frameworks */,
 				25315470173E6AB100452B4F /* MediaPlayer.framework in Frameworks */,
 				25315471173E6AB100452B4F /* AdSupport.framework in Frameworks */,
 				25315472173E6AB100452B4F /* StoreKit.framework in Frameworks */,
@@ -2439,7 +2434,6 @@
 				25315592173E6ADA00452B4F /* CoreVideo.framework in Frameworks */,
 				25315593173E6ADA00452B4F /* EventKit.framework in Frameworks */,
 				25315594173E6ADA00452B4F /* CoreTelephony.framework in Frameworks */,
-				25315595173E6ADA00452B4F /* PassKit.framework in Frameworks */,
 				25315596173E6ADA00452B4F /* MediaPlayer.framework in Frameworks */,
 				25315597173E6ADA00452B4F /* AdSupport.framework in Frameworks */,
 				25315598173E6ADA00452B4F /* StoreKit.framework in Frameworks */,
@@ -3339,7 +3333,6 @@
 				25ABE6D416F5F3C90054E612 /* CoreVideo.framework */,
 				25ABE6D216F5F3C10054E612 /* EventKit.framework */,
 				25ABE6D016F5F3AF0054E612 /* CoreTelephony.framework */,
-				25ABE6CE16F5F3A40054E612 /* PassKit.framework */,
 				25ABE6CC16F5F3990054E612 /* MediaPlayer.framework */,
 				25ABE6CA16F5F3850054E612 /* AdSupport.framework */,
 				25ABE6C816F5F37D0054E612 /* StoreKit.framework */,
@@ -3362,6 +3355,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3C19DB08195667DF00B21E81 /* PassKit.framework */,
 				1ACB3243164770DE00914215 /* libcurl.a */,
 				BF170DB212928DE900B8313A /* libxml2.dylib */,
 				BF170DB412928DE900B8313A /* libz.dylib */,
@@ -3838,7 +3832,12 @@
 				LastUpgradeCheck = 0510;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
-						DevelopmentTeam = HPGNJDQGKV;
+						DevelopmentTeam = Q26NF2UVQ8;
+						SystemCapabilities = {
+							com.apple.Passbook = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -5365,8 +5364,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5419,8 +5418,8 @@
 					"-all_load",
 				);
 				PRODUCT_NAME = "Flappy Crocodile";
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "09B6A03A-4E59-4A48-875D-20809E52EAB1";
+				PROVISIONING_PROFILE = "39F20D80-FED5-4AA6-B382-C1F245AE6680";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "39F20D80-FED5-4AA6-B382-C1F245AE6680";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";
@@ -5432,8 +5431,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5483,8 +5482,8 @@
 					"-all_load",
 				);
 				PRODUCT_NAME = "Flappy Crocodile";
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "64A9A223-164C-448E-B6C9-E0C15A023A43";
+				PROVISIONING_PROFILE = "39F20D80-FED5-4AA6-B382-C1F245AE6680";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "39F20D80-FED5-4AA6-B382-C1F245AE6680";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";

@@ -9,8 +9,8 @@
 #ifndef SK_PAID
 
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS) // Free
-#define APP_STORE_URL                               "http://itunes.apple.com/us/app/cilink-free/id816870672?ls=1&mt=8"
-#define DEFAULT_LEADERBOARD_STORE_ID                "com.appfresh.flappyfairyleaderboard"
+#define APP_STORE_URL                               "http://itunes.apple.com/au/app/id890319563?ls=1&mt=8"
+#define DEFAULT_LEADERBOARD_STORE_ID                "com.leaderboard.justdigitalpeople.ohdeergames"
 #define INAPP_UNLOCKALL_STORE_ID                    "com.dracollc.cilinkfree.unlock"
 #define INAPP_REMOVE_ADS_STORE_ID                   "com.dracollc.cilinkfree.removeads"
 #define FLURRY_APP_KEY                              "7XK5MW492NMGH92F5YW8"

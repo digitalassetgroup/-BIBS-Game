@@ -17,7 +17,7 @@ namespace sk
 		bool disable_all_inerestials()
 		{
 			// !!!! must be false in production code
-			return true;
+			return false;
 		}
 		
 		supported_orientations get_supported_orientation()
